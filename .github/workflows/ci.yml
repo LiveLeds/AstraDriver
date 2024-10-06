@@ -1,0 +1,274 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - test-workflow
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  Preflight:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: preflight.kibot.yaml
+          dir: output
+          schema: "AstraDriverPCB/AstraDriver.kicad_sch"
+          board: "AstraDriverPCB/AstraDriver.kicad_pcb"
+          verbose: 3
+      - name: "Setup jq"
+        uses: dcarbone/install-jq-action@v2
+      - name: Parse ERC
+        run: |
+          erc_warnings=$(cat output/AstraDriver-erc.json | jq '[try .violations[] | select(.severity == "warning")] | length')
+          erc_errors=$(cat output/AstraDriver-erc.json | jq '[try .violations[] | select(.severity == "error")] | length')
+          cat <<EOF > output/erc_validation.md
+          ### ERC Report
+          - **Errors**: $erc_errors
+          - **Warnings**: $erc_warnings
+          - **Link**: [HTML Report](output/AstraDriver-erc.html)
+          EOF
+          cat output/erc_validation.md
+      - name: Parse DRC
+        run: |
+          drc_warnings=$(cat output/AstraDriver-drc.json | jq '[try .violations[] | select(.severity == "warning")] | length')
+          drc_errors=$(cat output/AstraDriver-drc.json | jq '[try .violations[] | select(.severity == "error")] | length')
+          cat <<EOF > output/drc_validation.md
+          ### DRC Report
+          - **Errors**: $drc_errors
+          - **Warnings**: $drc_warnings
+          - **Link**: [HTML Report](output/AstraDriver-drc.html)
+          EOF
+          cat output/drc_validation.md
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: AstraDriver
+          path: output
+  Render_3D_Top_Angled:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: 3d_render_top_angled.kibot.yaml
+          dir: output
+          schema: "AstraDriverPCB/AstraDriver.kicad_sch"
+          board: "AstraDriverPCB/AstraDriver.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Render_Top_Angled
+          path: output
+  Report:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "5"
+          submodules: "true"
+      - name: Move template to root
+        run: |
+          ls -l
+          mkdir template
+          cp AstraDriverPCB/template/* template/
+          ls -l template
+      - name: Run Kibot
+        run: |
+            mkdir -p /root/.ssh/ && touch /root/.ssh/known_hosts
+            ssh-keygen -R github.com
+            ssh-keyscan github.com >> /root/.ssh/known_hosts
+            echo "github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" >> /root/.ssh/known_hosts
+            eval $(ssh-agent)
+            echo "${{ secrets.SSH_PRIVATE_KEY }}" | tr -d '\r' | ssh-add - > /dev/null
+            kibot -vvv -d output -c config.kibot.yaml -e AstraDriverPCB/AstraDriver.kicad_sch -b AstraDriverPCB/AstraDriver.kicad_pcb
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Report
+          path: output
+  PCBPrint:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Move template to root
+        run: |
+          ls -l
+          mkdir template
+          cp AstraDriverPCB/template/* template/
+          ls -l template
+      - name: Run Kibot for Dark PCBPrint
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: pcb_print_dark.kibot.yaml
+          dir: output
+          schema: "AstraDriverPCB/AstraDriver.kicad_sch"
+          board: "AstraDriverPCB/AstraDriver.kicad_pcb"
+          verbose: 3
+      - name: Run Kibot for Light PCBPrint
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: pcb_print_light.kibot.yaml
+          dir: output
+          schema: "AstraDriverPCB/AstraDriver.kicad_sch"
+          board: "AstraDriverPCB/AstraDriver.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: PCBPrint
+          path: output
+  Render_3D_Top:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: 3d_render_top.kibot.yaml
+          dir: output
+          schema: "AstraDriverPCB/AstraDriver.kicad_sch"
+          board: "AstraDriverPCB/AstraDriver.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Render_Top
+          path: output
+  Render_3D_Bottom:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: 3d_render_bottom.kibot.yaml
+          dir: output
+          schema: "AstraDriverPCB/AstraDriver.kicad_sch"
+          board: "AstraDriverPCB/AstraDriver.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Render_Bottom
+          path: output
+  Build_Jekyll:
+    runs-on: ubuntu-latest
+    needs:
+      [Preflight, Render_3D_Top, Render_3D_Bottom, Render_3D_Top_Angled, Report, PCBPrint]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: AstraDriver
+          path: output
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          path: output
+      - name: Move artifact files
+        run: |
+          ls -l
+          ls -l output
+          ls -l output/Render_Top_Angled
+          ls -l output/Report
+          mkdir export
+          mkdir html
+          mkdir images
+          mkdir documents
+          mkdir KiRiDark
+          mkdir KiRiLight
+          mv output/drc_validation.md ./
+          mv output/erc_validation.md ./
+          mv output/Report/report/AstraDriver-report.txt ./AstraDriver-report.md
+          mv output/Render_Top/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_top.png
+          mv output/Render_Bottom/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_bottom.png
+          mv output/Render_Top_Angled/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_top_angled.png
+          mv output/Report/IBOM/AstraDriver-ibom.html export/AstraDriver-ibom.html
+          mv output/Report/BOM/AstraDriver_bom.html export/AstraDriver-bom.html
+          mv output/Report/Schematic/AstraDriver-schematic-default.pdf documents/AstraDriver-schematic-default.pdf
+          mv output/Report/Schematic/AstraDriver-schematic-dark.pdf documents/AstraDriver-schematic-dark.pdf
+          mv output/Report/Schematic/AstraDriver-schematic-mono.pdf documents/AstraDriver-schematic-mono.pdf
+          mv output/PCBPrint/PCBPrintDark/AstraDriver-united-Dark.pdf documents/AstraDriver-pcb-dark.pdf
+          mv output/PCBPrint/PCBPrintLight/AstraDriver-united-Light.pdf documents/AstraDriver-pcb-light.pdf
+          mv output/Report/KiRiDark/* KiRiDark/
+          mv output/Report/KiRiLight/* KiRiLight/
+          mv output/Report/JLCPCB/AstraDriver-JLCPCB.zip export/AstraDriver-JLCPCB.zip
+          mv output/Report/JLCPCB/BOM/AstraDriver_bom_jlc.csv export/AstraDriver_bom_jlc.csv
+          mv output/Report/JLCPCB/PickAndPlace/AstraDriver_cpl_jlc.csv export/AstraDriver_cpl_jlc.csv
+          cp export/AstraDriver-JLCPCB.zip export/AstraDriver-Eurocircuits.zip
+          mv output/Report/Eurocircuits/BOM/AstraDriver_bom_jlc.csv export/AstraDriver_bom_Eurocircuits.csv
+          cp export/AstraDriver_cpl_jlc.csv export/AstraDriver_cpl_Eurocircuits.csv
+          rm -rf output
+          ls -l
+          ls -l export
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  Deploy_Jekyll:
+    needs: Build_Jekyll
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

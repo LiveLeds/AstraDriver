@@ -1,0 +1,274 @@
+# ATTENTION! THIS ISN'T A FULLY FUNCTIONAL EXAMPLE.
+# You should take portions of this example and edit the options to make
+# them suitable for your use.
+# This file is useful to know all the available options.
+kibot:
+  version: 1
+
+globals:
+  resources_dir: resources
+  field_lcsc_part: "LCSC Part"
+  solder_mask_color: black
+  pcb_finish: ENIG
+
+outputs:
+  - name: "pcb_print_dimensions_@COLOR_SCHEME@"
+    type: "pcb_print"
+    dir: "PCBPrint@COLOR_SCHEME@"
+    options:
+      output: "%f-%i%I%v-dimensions.%x"
+      add_background: true
+      background_color: "@BACKGROUND_COLOR@"
+      color_theme: "_builtin_default"
+      colored_pads: false
+      colored_vias: false
+      dpi: 1200
+      forced_edge_cuts_use_for_center: false
+      format: "PDF"
+      frame_plot_mechanism: "plot"
+      keep_temporal_files: false
+      invert_use_for_center: true
+      pages:
+        - title: "Front Fabrication"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: false
+          tent_vias: false
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: F.Cu
+              color: "@DIM_COLOR@"
+            - layer: Edge.Cuts
+            - layer: F.Fab
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Dimensions
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              use_for_center: false
+              color: "@BACKGROUND_COLOR@"
+        - title: "Front Silkscreen"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: false
+          tent_vias: false
+          colored_holes: true
+          holes_color: "@BACKGROUND_COLOR@"
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          layers:
+            - layer: F.Cu
+              color: "@DIM_COLOR@"
+            - layer: Edge.Cuts
+            - layer: F.SilkS
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              use_for_center: false
+              color: "@BACKGROUND_COLOR@"
+        - title: "Back Fabrication"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: false
+          tent_vias: false
+          colored_holes: true
+          holes_color: "@BACKGROUND_COLOR@"
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          layers:
+            - layer: B.Cu
+              color: "@DIM_COLOR@"
+            - layer: Edge.Cuts
+            - layer: B.Fab
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Dimensions
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "Back Silkscreen"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: false
+          tent_vias: false
+          colored_holes: true
+          holes_color: "@BACKGROUND_COLOR@"
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          layers:
+            - layer: B.Cu
+              color: "@DIM_COLOR@"
+            - layer: Edge.Cuts
+            - layer: B.SilkS
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              use_for_center: false
+              color: "@BACKGROUND_COLOR@"
+  - name: "pcb_print"
+    type: "pcb_print"
+    dir: "PCBPrint@COLOR_SCHEME@"
+    options:
+      output: "%f-%i%I%v.%x"
+      add_background: true
+      background_color: "@BACKGROUND_COLOR@"
+      color_theme: "_builtin_default"
+      dpi: 1200
+      forced_edge_cuts_use_for_center: true
+      format: "PDF"
+      frame_plot_mechanism: "plot"
+      keep_temporal_files: false
+      invert_use_for_center: true
+      colored_pads: false
+      colored_vias: false
+      pages:
+        - title: "L1 SIG / PWR (FAB)"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: true
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: F.Cu
+            - layer: Edge.Cuts
+            - layer: F.Fab
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "L1 SIG / PWR"
+          scaling: 1.3
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: F.Cu
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "L2 GND (Front FAB)"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: true
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: In1.Cu
+            - layer: Edge.Cuts
+            - layer: F.Fab
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "L2 GND"
+          scaling: 1.3
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: In1.Cu
+            - layer: Edge.Cuts
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "L3 GND (Front FAB)"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: true
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: In2.Cu
+            - layer: Edge.Cuts
+            - layer: F.Fab
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "L3 GND"
+          scaling: 1.3
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: In2.Cu
+            - layer: Edge.Cuts
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "L4 SIG / PWR (Front FAB)"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: true
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: B.Cu
+            - layer: Edge.Cuts
+            - layer: F.Fab
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "L4 SIG / PWR"
+          scaling: 1.3
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: B.Cu
+            - layer: Edge.Cuts
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "L1 (Component Dimensions)"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: true
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: F.Cu
+            - layer: Edge.Cuts
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: F.SilkS
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+            - layer: User.1
+              color: "@FOREGROUND_COLOR@"
+  - name: "Unite PCB Print @COLOR_SCHEME@"
+    type: "pdfunite"
+    dir: "PCBPrint@COLOR_SCHEME@"
+    priority: 10
+    options:
+      output: "%f-united-@COLOR_SCHEME@.%x"
+      use_external_command: true
+      outputs:
+        - source: "PCBPrint@COLOR_SCHEME@/AstraDriver-assembly-dimensions.pdf"
+        - source: "PCBPrint@COLOR_SCHEME@/AstraDriver-assembly.pdf"
+
+...
+definitions:
+  BACKGROUND_COLOR: "#050505"
+  FOREGROUND_COLOR: "#FFFFFF"
+  DIM_COLOR: "#202020"
+  COLOR_SCHEME: "dark"

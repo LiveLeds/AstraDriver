@@ -1,0 +1,34 @@
+title: AstraDriver
+email: support@liveleds.io
+description: >- 
+  ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
+  for communication, supporting various sensors and HMI devices for high-power 
+  LED fixtures or strips. One device can act as master or all fixtures will receive 
+  data from a dedicated receiver.
+baseurl: "/AstraDriver"
+url: "https://liveleds.github.io"
+github_username: LiveLeds
+permalink: /:slug
+remote_theme: abhinavs/moonwalk
+plugins:
+  - jekyll-feed
+  - jemoji
+
+theme_config:
+  appearance: "auto"
+  appearance_toggle: true
+  back_home_text: "home.."
+  date_format: "-%d %M %y"
+  show_description: false # show blog description
+  show_copyright: true # show copyright notice in footer
+  show_projects: false # show projects as cards, add in _data/home.yml
+  show_blog: false # show blog posts added in _posts
+  show_old_projects: false # show old projects as cards, add in _data/home.yml
+  show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
+  show_reading_time: false # show number of words and reading time in the blog posts
+  show_tags: false # show tags in a blog posts
+
+highlighter: rouge
+
+sass:
+  style: :compressed

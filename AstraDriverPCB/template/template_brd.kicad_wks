@@ -1,0 +1,236 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "${PAPER}"
+		(name "")
+		(pos 18.9892 6.0022)
+		(font
+			(face "ING Me")
+			(size 2.5 2.5) bold)
+		(comment "paper size")
+	)
+	(line
+		(name "")
+		(start 202.9892 2.0022)
+		(end 202.9892 15.0022)
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "")
+		(pos 55.9892 5.5022)
+		(font
+			(face "ING Me")
+		)
+		(comment "issue date")
+	)
+	(tbtext "${FILENAME}"
+		(name "")
+		(pos 164.9892 5.5022)
+		(font
+			(face "ING Me")
+		)
+		(comment "filename")
+	)
+	(line
+		(name "")
+		(start 275.0022 15.0072)
+		(end 1.9892 15.0022)
+	)
+	(tbtext "${COMPANY}"
+		(name "")
+		(pos 200.9892 5.5022)
+		(font
+			(face "ING Me") bold)
+		(comment "company")
+	)
+	(tbtext "${TITLE}"
+		(name "")
+		(pos 164.9892 8.5022)
+		(font
+			(face "ING Me")
+		)
+		(comment "title")
+	)
+	(line
+		(name "")
+		(start 242.9892 2.0022)
+		(end 242.9892 15.0022)
+	)
+	(line
+		(name "")
+		(start 165.9892 2.0022)
+		(end 165.9892 15.0022)
+	)
+	(tbtext "Board Name"
+		(name "")
+		(pos 273.9892 13.0022)
+		(font
+			(face "ING Me Headline")
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Project Name"
+		(name "")
+		(pos 241.9892 13.0022)
+		(font
+			(face "ING Me Headline")
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Company"
+		(name "")
+		(pos 200.9892 12.0022)
+		(font
+			(face "ING Me Headline")
+		)
+		(justify bottom)
+		(comment "Sheet id")
+	)
+	(tbtext "Sheet Title & File Name"
+		(name "")
+		(pos 164.989 13.002)
+		(font
+			(face "ING Me Headline")
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 56.9892 2.0022)
+		(end 56.9892 15.0022)
+	)
+	(line
+		(name "")
+		(start 39.989 2.0022)
+		(end 39.989 15.0022)
+	)
+	(tbtext "Date"
+		(name "")
+		(pos 55.9892 13.0022)
+		(font
+			(face "ING Me Headline")
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Revision"
+		(name "")
+		(pos 38.989 13.0022)
+		(font
+			(face "ING Me Headline")
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "Size"
+		(name "")
+		(pos 18.9892 13.0022)
+		(font
+			(face "ING Me Headline")
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 19.989 2.0022)
+		(end 19.989 15.0022)
+	)
+	(tbtext "${PROJECT_NAME}"
+		(name "")
+		(pos 241.989 6.002)
+		(font
+			(face "ING Me Headline")
+			(size 2.5 2.5) bold)
+		(comment "project name")
+	)
+	(tbtext "${BOARD_NAME}"
+		(name "")
+		(pos 273.989 6.002)
+		(font
+			(face "ING Me")
+			(size 2.5 2.5) bold)
+		(comment "board name")
+	)
+	(tbtext "${REVISION}"
+		(name "")
+		(pos 39.002 6.007)
+		(font
+			(face "ING Me")
+			(size 2.5 2.5) bold)
+		(comment "rev")
+	)
+)

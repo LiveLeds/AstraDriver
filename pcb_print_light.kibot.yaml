@@ -1,0 +1,10 @@
+kibot:
+  version: 1
+
+import:
+  - file: pcb_print.kibot.yaml
+    definitions:
+      BACKGROUND_COLOR: "#ffffff"
+      FOREGROUND_COLOR: "#000000"
+      DIM_COLOR: "#dedede"
+      COLOR_SCHEME: "Light"
