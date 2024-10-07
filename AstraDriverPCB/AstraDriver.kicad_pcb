@@ -439,7 +439,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "bb6c42e1-d805-4846-a996-266d841691ba")
 			(effects
@@ -645,7 +645,7 @@
 			(uuid "745b89e7-9aeb-43d4-ab66-00f69e4edc8d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1 360)
+			(at 0 1 0)
 			(layer "F.Fab")
 			(uuid "7862fbd1-2d80-462e-9ed5-01645c9ec0ac")
 			(effects
@@ -735,6 +735,17 @@
 			(type default)
 		)
 		(fill none)
+		(layer "User.2")
+		(uuid "1edf30ad-57b2-4084-a249-b94bd7b5c22f")
+	)
+	(gr_rect
+		(start 139 80)
+		(end 151 92)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
 		(layer "User.5")
 		(uuid "ab1df9af-1751-47f5-8c0f-65541de19d9b")
 	)
@@ -748,6 +759,19 @@
 		(fill none)
 		(layer "User.8")
 		(uuid "ed76e020-2c9e-46b7-9986-9aa36b8af41f")
+	)
+	(gr_text "${TITLE}"
+		(at 145 77.5 0)
+		(layer "User.9")
+		(uuid "e677a11b-cf3d-4ccb-b901-2a49d56e3323")
+		(effects
+			(font
+				(face "ING Me Headline")
+				(size 4 4)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "" 0)
 	)
 	(segment
 		(start 146.99 86)

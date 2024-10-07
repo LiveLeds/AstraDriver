@@ -456,7 +456,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -606,7 +606,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "template/template_sch.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -621,7 +621,22 @@
     [
       "d8760d88-6646-4dd8-a980-02e776803cc5",
       "Root"
+    ],
+    [
+      "266764c8-9259-40c1-8d01-d8390298a222",
+      "Overview"
+    ],
+    [
+      "db9d16fd-00a9-4695-9dd4-6de80f9e2ffc",
+      "Block Diagram"
+    ],
+    [
+      "e6bfebdf-aa19-4866-bf09-731e468084aa",
+      "Channel 1"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BOARD_NAME": "AstraDriver",
+    "PROJECT_NAME": "AstraBeam"
+  }
 }

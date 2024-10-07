@@ -4,726 +4,378 @@
 	(generator_version "8.0")
 	(uuid "d8760d88-6646-4dd8-a980-02e776803cc5")
 	(paper "A4")
-	(lib_symbols
-		(symbol "LiveAstra:R_10Ohm_0402_62mW"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "LiveAstra:R_0402_1005Metric"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10R-10R0-1_C25077.html"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 10Ω 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C25077"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Extra Values" "50V 1% 0402 62mW"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(property "MPN" "0402WGF100JTCE"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_10Ohm_0402_62mW_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "R_10Ohm_0402_62mW_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
+	(title_block
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
-	(junction
-		(at 132.08 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d895793c-a13e-4a1b-be05-97ab44195f9c")
-	)
-	(no_connect
-		(at 170.18 91.44)
-		(uuid "b01b2ed5-1681-4b03-9963-e0be03dfbd95")
-	)
-	(wire
-		(pts
-			(xy 149.86 91.44) (xy 160.02 91.44)
+	(lib_symbols)
+	(circle
+		(center 20.32 130.81)
+		(radius 0.8135)
+		(stroke
+			(width -0.0001)
+			(type default)
 		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 038813fe-33a0-4be0-b624-25be7a700fd6)
+	)
+	(circle
+		(center 20.32 86.36)
+		(radius 0.6351)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 18081b1f-3882-4491-ad41-c2ac4cf522ae)
+	)
+	(circle
+		(center 20.32 137.16)
+		(radius 0.7409)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 2f07aa93-b89b-4d44-ab0e-e2dff811830c)
+	)
+	(circle
+		(center 20.32 162.56)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 35081398-20e1-48ed-b247-79420b88665f)
+	)
+	(circle
+		(center 20.32 143.51)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 48e9d320-9669-4742-a528-e000b28c71db)
+	)
+	(circle
+		(center 20.32 124.46)
+		(radius 0.7354)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 51d99dc6-6bb4-497d-9059-1d1a2ff075f9)
+	)
+	(circle
+		(center 20.32 149.86)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 966900e3-0baa-4690-8e0d-7311c5943e3d)
+	)
+	(circle
+		(center 20.32 118.11)
+		(radius 0.807)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 96a9c2ae-897d-432e-ae87-da1a7d43f7c7)
+	)
+	(rectangle
+		(start 180.34 33.02)
+		(end 279.4 132.08)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e7aaf8c-0af9-4133-9ad2-be03a35a7d09")
-	)
-	(wire
-		(pts
-			(xy 132.08 88.9) (xy 132.08 91.44)
+		(fill
+			(type none)
 		)
+		(uuid d07aac08-a110-4cb0-b719-a1f937d29859)
+	)
+	(circle
+		(center 20.32 156.21)
+		(radius 0.82)
 		(stroke
-			(width 0)
+			(width -0.0001)
 			(type default)
 		)
-		(uuid "896c9834-15a9-4e57-b82e-a7093f2c7e4b")
-	)
-	(wire
-		(pts
-			(xy 132.08 93.98) (xy 132.08 91.44)
+		(fill
+			(type color)
+			(color 0 0 0 0)
 		)
+		(uuid ecee0fa9-5374-476c-a56d-e95f53dcd33a)
+	)
+	(circle
+		(center 20.32 99.06)
+		(radius 0.6306)
 		(stroke
-			(width 0)
+			(width -0.0001)
 			(type default)
 		)
-		(uuid "9b914e34-a4e3-4b46-a59b-b755a0f66950")
-	)
-	(wire
-		(pts
-			(xy 139.7 91.44) (xy 132.08 91.44)
+		(fill
+			(type color)
+			(color 0 0 0 0)
 		)
+		(uuid f0a250fc-daca-4962-8e40-b7294598e3c5)
+	)
+	(circle
+		(center 20.32 92.71)
+		(radius 0.6174)
 		(stroke
-			(width 0)
+			(width -0.0001)
 			(type default)
 		)
-		(uuid "dc3abc28-e058-4eef-b15c-e9d14c59c08f")
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid f1b990db-b801-469e-bc87-466a4e3bf55c)
 	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 132.08 88.9 0)
-		(unit 1)
+	(circle
+		(center 20.32 111.76)
+		(radius 0.73)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid f2ea983f-eaea-4428-b0a9-9d91b81b8165)
+	)
+	(circle
+		(center 20.32 105.41)
+		(radius 0.6696)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid f9ab523a-5c62-4228-b9d5-0539390fe5b5)
+	)
+	(text "JST VH Connectors"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b35a3ab-d4ff-4838-929c-864924bea9ad")
-		(property "Reference" "#FLG01"
-			(at 132.08 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(at 22.86 87.63 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
 			)
+			(justify left)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 132.08 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 132.08 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17943e90-b2f0-49e9-844c-38dd41c9adcb")
-		)
-		(instances
-			(project ""
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "1a40af08-f081-4a43-8294-0c83dd3b27a9")
 	)
-	(symbol
-		(lib_id "LiveAstra:R_10Ohm_0402_62mW")
-		(at 165.1 91.44 0)
-		(unit 1)
+	(text "In review"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(at 29.21 39.37 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 4.064 4.064)
+			)
+		)
+		(uuid "27ccc83e-8f2d-4ac4-be43-33fb822332f1")
+	)
+	(text "4 Channel LED Driver with PWM dimming input. LED2001PHR is the driver IC, \nit can support up to 4A, 3V - 18V at 850KHz switching frequency."
+		(exclude_from_sim no)
+		(at 17.78 62.23 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "2f249f9e-7559-42b6-ae80-b4b13c854374")
+	)
+	(text "4 PWM channels"
+		(exclude_from_sim no)
+		(at 22.86 100.33 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "4cbdc586-106a-4fba-bb98-458de40aae7d")
+	)
+	(text "5V and 3.3V Power Input"
+		(exclude_from_sim no)
+		(at 22.86 93.98 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "6345584c-8c40-491a-b2e5-0b9ff27663d5")
+	)
+	(text "Render for reference only"
+		(exclude_from_sim no)
+		(at 227.33 135.89 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+		)
+		(uuid "90f36c9c-da8d-4eec-a470-08a4ea06929a")
+	)
+	(text "AstraDriver"
+		(exclude_from_sim no)
+		(at 17.78 24.13 0)
+		(effects
+			(font
+				(face "ING Me Headline")
+				(size 8 8)
+				(thickness 1.6)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "93dc39fb-30cc-44ab-8c72-15e319afeffb")
+	)
+	(text "Features"
+		(exclude_from_sim no)
+		(at 17.78 80.01 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9a963663-8d6d-4bf7-b02d-6dac1ca2619c")
+	)
+	(text "23 June 2024"
+		(exclude_from_sim no)
+		(at 231.23 23.73 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 5 5)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "bed3c528-627d-41ca-ab8a-5d70c3c48957")
+	)
+	(sheet
+		(at 182.88 144.78)
+		(size 38.1 31.75)
 		(fields_autoplaced yes)
-		(uuid "869d539c-05e5-4a98-99d8-109cdcfbf396")
-		(property "Reference" "R2"
-			(at 165.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(stroke
+			(width 0.1524)
+			(type solid)
 		)
-		(property "Value" "10"
-			(at 165.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
+		(fill
+			(color 0 0 0 0.0000)
 		)
-		(property "Footprint" "LiveAstra:R_0402_1005Metric"
-			(at 165.1 107.95 0)
+		(uuid "266764c8-9259-40c1-8d01-d8390298a222")
+		(property "Sheetname" "Overview"
+			(at 182.88 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10R-10R0-1_C25077.html"
-			(at 165.1 100.33 0)
+		(property "Sheetfile" "overview.kicad_sch"
+			(at 182.88 177.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 10Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 165.1 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 165.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "50V 1% 0402 62mW"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MPN" "0402WGF100JTCE"
-			(at 165.1 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 165.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f915de3-4a3b-4dfc-bb7d-3bfdba612ead")
-		)
-		(pin "2"
-			(uuid "fd56b292-ec77-4208-81a5-54dbd6c5a07a")
 		)
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5"
-					(reference "R2")
-					(unit 1)
+					(page "2")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 240.62 144.3)
+		(size 37.51 32.23)
 		(fields_autoplaced yes)
-		(uuid "8e0eb894-6da1-48d0-9da2-4f2604603396")
-		(property "Reference" "#PWR01"
-			(at 132.08 100.33 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db9d16fd-00a9-4695-9dd4-6de80f9e2ffc")
+		(property "Sheetname" "Block Diagram"
+			(at 240.62 143.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 132.08 99.06 0)
+		(property "Sheetfile" "block_diagram.kicad_sch"
+			(at 240.62 177.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbd597bd-81df-465c-a485-ef89a8127a61")
 		)
 		(instances
-			(project ""
+			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:R_10Ohm_0402_62mW")
-		(at 144.78 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7ed0c8e-9b84-45da-9336-736d6777d294")
-		(property "Reference" "R1"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:R_0402_1005Metric"
-			(at 144.78 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10R-10R0-1_C25077.html"
-			(at 144.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 10Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 144.78 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "50V 1% 0402 62mW"
-			(at 144.78 87.63 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MPN" "0402WGF100JTCE"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 144.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7b38a4f-611d-4fc9-8574-b897db3b1d3d")
-		)
-		(pin "2"
-			(uuid "c06faa2d-17c4-4092-8f07-43009b905ee2")
-		)
-		(instances
-			(project ""
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5"
-					(reference "R1")
-					(unit 1)
+					(page "3")
 				)
 			)
 		)

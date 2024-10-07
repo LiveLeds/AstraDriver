@@ -1,0 +1,1674 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8cb86fe3-9ba5-4da7-b19f-0d47429dcca5")
+	(paper "A4")
+	(title_block
+		(title "AstraControl - Overview")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
+	)
+	(lib_symbols
+		(symbol "LiveAstra:Critical_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "CRT"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Critical_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 3.81) (xy -21.336 6.604) (xy -19.812 3.81) (xy -22.86 3.81)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 244 67 54 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Critical"
+					(at -17.78 5.08 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 244 67 54 1)
+						)
+						(justify left)
+					)
+				)
+				(text "x"
+					(at -21.336 4.826 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 244 67 54 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Information_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "INF"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Information_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -21.082 5.08)
+					(radius 1.524)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 41 182 246 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "i"
+					(at -21.0726 4.8456 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 41 182 246 1)
+						)
+					)
+				)
+				(text "Information"
+					(at -17.78 5.08 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 41 182 246 1)
+						)
+						(justify left)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Question_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "QST"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Question_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -21.082 5.08)
+					(radius 1.524)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 102 187 106 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "?"
+					(at -21.0329 4.9503 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.778 1.778)
+							(color 102 187 106 1)
+						)
+					)
+				)
+				(text "Question"
+					(at -17.78 6.35 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 102 187 106 1)
+						)
+						(justify left top)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Warning_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "WRN"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Warning_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 3.81) (xy -21.336 6.604) (xy -19.812 3.81) (xy -22.86 3.81)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 255 167 38 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "!"
+					(at -21.336 4.826 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 255 167 38 1)
+						)
+					)
+				)
+				(text "Caution"
+					(at -17.78 5.08 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 255 167 38 1)
+						)
+						(justify left)
+					)
+				)
+			)
+		)
+	)
+	(polyline
+		(pts
+			(xy 26.67 177.8) (xy 26.67 177.8)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(uuid "84f4d95c-da8f-4475-afd7-d6817844bb59")
+	)
+	(circle
+		(center 22.86 140.97)
+		(radius 0.6351)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 252d6903-4cd2-4cd7-85a3-01d2a1d6a333)
+	)
+	(circle
+		(center 22.86 134.62)
+		(radius 0.6351)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid bb0b6c6b-0509-4b94-a210-8ff4fcaf248f)
+	)
+	(circle
+		(center 22.86 121.92)
+		(radius 0.6351)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid e660677b-8cd6-4b82-978e-727f17629181)
+	)
+	(circle
+		(center 22.86 128.27)
+		(radius 0.6351)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid f337b07d-d014-4175-9b12-7e41afc6c550)
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 27.94 83.82 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "07752ad9-7b66-4c03-9e03-809b18ecb8a0")
+	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 111.76 99.06 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "078f6370-3a86-4c7d-811a-69aba3f5b77d")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 27.94 88.9 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "09fa3387-7415-4425-afef-7259eae40e08")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 27.94 73.66 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "11ae7ac9-5dca-4975-93ad-233e31ff617e")
+	)
+	(text "PWM Connector"
+		(exclude_from_sim no)
+		(at 121.92 88.9 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "15c188e5-9525-4279-b2cc-54b0564626b2")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 27.94 63.5 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "1699353a-9b87-4564-9e33-8aade3fd7675")
+	)
+	(text "Misc"
+		(exclude_from_sim no)
+		(at 121.92 99.06 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "19fb2f6a-eaa0-4602-b306-66fbcb1fa5cd")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 27.94 68.58 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "20771f70-fc0d-4e05-84cc-32926ab71092")
+	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 111.76 73.66 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "2856e32e-285f-4efd-8435-fda6d6644a6a")
+	)
+	(text "3.3V to 5V Logic Shifter"
+		(exclude_from_sim no)
+		(at 121.92 73.66 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "2d120d11-2fe3-4d61-bcb3-8278b6f2f798")
+	)
+	(text "UART to RS-485"
+		(exclude_from_sim no)
+		(at 121.92 68.58 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "30b04aa5-3131-4f3b-a5d0-502e30e3cdb7")
+	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 111.76 93.98 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "30c3c56d-fc3c-4d12-b1a4-ebe180f5db48")
+	)
+	(text "Fan, Temperature, Screen I2C"
+		(exclude_from_sim no)
+		(at 121.92 83.82 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "34a8f731-ded1-4330-a9e1-c9eecc911fb2")
+	)
+	(text "5V Protection"
+		(exclude_from_sim no)
+		(at 38.1 88.9 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "3b9aaeb4-20f3-429c-ad92-c7886aa49e06")
+	)
+	(text "Something is unclear or a missing piece of \ninformation potentially needs to be \nexplored further."
+		(exclude_from_sim no)
+		(at 22.86 172.72 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "43da7588-8879-4225-8480-872f3227da05")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 101.6 50.8 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 4 4)
+			)
+			(justify left)
+		)
+		(uuid "484685b3-1703-4796-80b3-75a0b867eeee")
+	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 111.76 78.74 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "4a4b1d32-eb63-4af9-89dd-1642a8c3424f")
+	)
+	(text "13"
+		(exclude_from_sim no)
+		(at 111.76 83.82 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "4d132ceb-7425-4298-9bc0-f8af57fbf0f4")
+	)
+	(text "22 April 2024"
+		(exclude_from_sim no)
+		(at 232.5 25 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 5 5)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "4e36581e-240d-4d35-9b26-1b25d38286de")
+	)
+	(text "MCU Enable and Boot"
+		(exclude_from_sim no)
+		(at 38.1 83.82 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "548c3da8-eaca-40a7-af61-539e032077c9")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 19.05 50.8 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 4 4)
+			)
+			(justify left)
+		)
+		(uuid "54f7ac6c-a9c0-478c-97d8-c4ff6a8eebac")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 20.32 115.57 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5c06f5f1-608f-4fc8-b492-379b3d74020a")
+	)
+	(text "MCU Enable and Boot"
+		(exclude_from_sim no)
+		(at 38.1 99.06 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "6731452a-0b67-4606-b162-4800a3ecf4c7")
+	)
+	(text "5V GPIO Connectors"
+		(exclude_from_sim no)
+		(at 121.92 78.74 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "6e9ca222-fa67-4809-949f-f9eac4bedad1")
+	)
+	(text "It is critical to follow the instructions here. \nFailure to do so will result in poor\nperformance or failuire."
+		(exclude_from_sim no)
+		(at 134.62 172.72 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "7301e8da-463a-4590-844a-fb4e7adba78c")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 111.76 88.9 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "76495fa9-10b4-4205-ba08-6b5e70f258d8")
+	)
+	(text "Overview"
+		(exclude_from_sim no)
+		(at 19.05 25.4 0)
+		(effects
+			(font
+				(face "ING Me Headline")
+				(size 8 8)
+			)
+			(justify left top)
+		)
+		(uuid "774b092c-da6d-423b-a324-5178f2475d9b")
+	)
+	(text "Cover"
+		(exclude_from_sim no)
+		(at 38.1 63.5 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "788aaef5-6239-415e-bf3e-1a12668a239d")
+	)
+	(text "Overview"
+		(exclude_from_sim no)
+		(at 38.1 68.58 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "95de8026-a957-4832-a10c-74a437af8fd1")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 38.1 93.98 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "98514de0-fbb7-4bf4-9b1b-c08db855dee3")
+	)
+	(text "Second time creating a PCB. Mistakes were probably made."
+		(exclude_from_sim no)
+		(at 25.4 123.19 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "a3820afe-4323-4d5a-8e24-4184abfa5faa")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 27.94 99.06 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "a3fb6dac-89d7-4909-bd02-43a795055cbb")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 27.94 93.98 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "a4e04e1f-20b4-45cb-a7ba-47292c35ee3f")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 111.76 68.58 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "b218fdf0-6ae1-4531-8cf6-400c201f99c1")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 27.94 78.74 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "b6367ff2-7364-4d16-b06b-573520e93f97")
+	)
+	(text "Description"
+		(exclude_from_sim no)
+		(at 120.65 50.8 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 4 4)
+			)
+			(justify left)
+		)
+		(uuid "b7b9100a-6435-4ca8-81f0-e9a3d0ce5736")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 111.76 63.5 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "c60d773b-66a6-41ad-9511-524211e60ae8")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 38.1 78.74 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "d0904fc4-05c3-48f4-bda4-6fb2fff78412")
+	)
+	(text "Button, Status LED, UART, I2S"
+		(exclude_from_sim no)
+		(at 121.92 93.98 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "d30834ae-a7f0-4c6b-a12d-2b83c864952b")
+	)
+	(text "USB-C"
+		(exclude_from_sim no)
+		(at 121.92 63.5 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "f1706820-af75-4cc8-b374-e1bd2151ae4e")
+	)
+	(text "Generic information box to inform about \nspecifics of the part or layout, notes, \nhelpful information."
+		(exclude_from_sim no)
+		(at 78.74 172.72 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "fba8dbf6-c67f-4b19-93d9-56a833648c00")
+	)
+	(text "Description"
+		(exclude_from_sim no)
+		(at 38.1 50.8 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 4 4)
+			)
+			(justify left)
+		)
+		(uuid "fd35e485-9d6d-4ceb-b6f7-9ae43c998372")
+	)
+	(text "Extra care is required here. Pay attention to\ndetails, routing, and try your best to follow\nthe advice."
+		(exclude_from_sim no)
+		(at 190.5 172.72 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "fda8d59a-dc1f-4843-ac16-80c370e5c8de")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 38.1 73.66 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "fea10f92-5b82-491a-80d2-3ac57b73c066")
+	)
+	(symbol
+		(lib_id "LiveAstra:Information_Box")
+		(at 101.6 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66fb6ec0-a463-4373-8e9b-eadeb57b25de")
+		(property "Reference" "INF1"
+			(at 101.6 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 101.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
+					(reference "INF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:Warning_Box")
+		(at 213.36 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b74295f-7f32-4b2a-8b1a-e4f1853876ff")
+		(property "Reference" "WRN1"
+			(at 213.36 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 213.36 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.882 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.882 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.882 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
+					(reference "WRN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:Critical_Box")
+		(at 157.48 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "814144f5-89a6-4a1c-b1db-062dc3b5df8c")
+		(property "Reference" "CRT1"
+			(at 157.48 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 157.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.002 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.002 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.002 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
+					(reference "CRT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:Question_Box")
+		(at 45.72 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c0d40e-a15d-4a02-92a5-896719770cfd")
+		(property "Reference" "QST1"
+			(at 45.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 45.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.242 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.242 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.242 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
+					(reference "QST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
