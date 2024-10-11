@@ -632,7 +632,19 @@
     ],
     [
       "e6bfebdf-aa19-4866-bf09-731e468084aa",
-      "Channel 1"
+      "Channel 1 2.5A"
+    ],
+    [
+      "2917a49e-0b0c-4bc9-a147-180770b18779",
+      "Channel 2 2.5A"
+    ],
+    [
+      "5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce",
+      "Channel 3 2.5A"
+    ],
+    [
+      "fa547d88-44f2-44f0-9d14-59ceeb0f5768",
+      "Channel 4 2A"
     ]
   ],
   "text_variables": {

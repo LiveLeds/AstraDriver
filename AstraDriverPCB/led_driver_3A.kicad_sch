@@ -7301,15 +7301,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "e5ba54b7-9bb1-4514-bb02-07554da9d779")
+			(uuid "aee8caba-bb71-484a-814a-26d77c819532")
 		)
 		(pin "1"
-			(uuid "7af0d09d-973a-4440-ba63-a5d2df02cac1")
+			(uuid "7f1a2940-98ce-4f18-b041-4bda9f839b08")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7407,19 +7419,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "053d7bf9-a1ec-41c1-aa77-66cc72bbb684")
+			(uuid "ba1152b1-4c4f-45a5-b45f-b3561980be1f")
 		)
 		(pin "2"
-			(uuid "2bf5b7f6-5844-4aaf-9169-61707f7e9cce")
+			(uuid "99fa1da2-0bfc-46e4-af57-8655fbb5c895")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
-					(reference "C5")
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "C2")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7480,16 +7500,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "94b6e16a-7b72-4e84-89c2-9b83f38086fe")
+			(uuid "0280a59c-e380-4d03-a6eb-10c3bc61152d")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
 					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7550,16 +7578,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0ac1d10-804e-4112-84ab-070a26035673")
+			(uuid "8154158e-4393-49b8-b8a9-9051a4c25bee")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
-					(reference "#PWR014")
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7620,12 +7656,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6e5fd6f-573e-4a98-a0a4-33b4456b686e")
+			(uuid "46c1f1cb-c551-4850-b57d-d7a3aaf98040")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7723,15 +7771,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "76ca22c3-b99d-464b-b27b-e312398cba29")
+			(uuid "06dba4e3-87c4-4fa6-89fc-121e1a6477d0")
 		)
 		(pin "2"
-			(uuid "ad34b0c4-141f-4801-a3c6-f7962b4a5ef8")
+			(uuid "1ec59154-2787-44b4-a178-d1dbae244340")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "C6")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7792,16 +7852,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f1e2d9d-771f-4e6f-bc02-f0273e6f9ca0")
+			(uuid "3afd3d96-2e9e-467a-a495-72d5ac83e097")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
 					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7862,12 +7930,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "3026c4db-ffb3-43b7-8ca6-2533ec2b85af")
+			(uuid "fde694fa-4cbb-4b5f-8fd1-aedcfa0aa2aa")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7964,15 +8044,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "cc4a1d87-1281-49f4-b367-706730cb6c9f")
+			(uuid "06f6f942-8f76-4312-a98a-323ce4c15382")
 		)
 		(pin "1"
-			(uuid "079166c7-d909-4cc9-92b9-982ef596dafe")
+			(uuid "200538f2-2b8d-4106-bfa7-3649aeb4a78b")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "L1")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "L3")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "L2")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -8040,40 +8132,48 @@
 			)
 		)
 		(pin "2"
-			(uuid "427ceac6-c637-400f-bdac-50751dd47da7")
+			(uuid "0f551863-162e-4d31-a535-44829e74504f")
 		)
 		(pin "1"
-			(uuid "ee882e6b-103f-45e1-94ba-9c661595b4e6")
+			(uuid "cedf758c-a679-4ede-bff2-b3ac05f7ec60")
 		)
 		(pin "6"
-			(uuid "a8bb1433-145e-4af1-a5b3-757d0a192bfc")
+			(uuid "d836d43d-81d0-4a95-866d-062f1e435f67")
 		)
 		(pin "8"
-			(uuid "7ed92fe6-a2ce-461d-b78e-00295793aaba")
+			(uuid "207d76af-68e4-4680-8605-8f88f4074fae")
 		)
 		(pin "3"
-			(uuid "7a25f49d-93aa-4283-ba98-a618aca5b889")
+			(uuid "93e2f167-7d3a-4bf6-8337-79ae3638b1be")
 		)
 		(pin "9"
-			(uuid "d96165f4-d083-4c2c-a95f-4254e1cd05b6")
+			(uuid "416c69f1-33a3-43ac-b3ef-4bd62cfffce8")
 		)
 		(pin "7"
-			(uuid "96dd28a4-ad47-47bd-b617-5a6a418fe8a9")
+			(uuid "e444f133-5719-4cfb-a682-6ed12df08da4")
 		)
 		(pin "4"
-			(uuid "a1115262-501c-4b4a-9153-9b5f92079c72")
+			(uuid "d84a2c7d-d435-45f5-981c-0250bc33729e")
 		)
 		(pin "5"
-			(uuid "ad0585f9-c1cd-4c53-a6ec-643cdf036c4a")
+			(uuid "a07239b1-d503-4ec1-b7b2-2e545f2f6bba")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
 					(reference "U2")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "U1")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8172,15 +8272,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "b3bca777-2d07-4e93-ac0f-d7891f9a2a8b")
+			(uuid "99cc81fc-9ad5-4568-bfbd-9a03a612dc30")
 		)
 		(pin "1"
-			(uuid "6b346494-2263-420c-adb7-7d9ae290503d")
+			(uuid "aff7a9f5-56ca-439f-85ce-983a177fc3c0")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8241,16 +8353,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "843c37c3-b5cd-45cc-b9f8-42b61010d50e")
+			(uuid "54a1d096-6b04-4b9b-8d13-26597625f342")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
-					(reference "#PWR015")
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8313,8 +8433,20 @@
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "INF2")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "INF5")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "INF4")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "INF6")
 					(unit 1)
 				)
 			)
@@ -8375,16 +8507,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "afccb32e-feb8-4511-b62b-fa81afacea32")
+			(uuid "a02a34b5-8a75-42f3-8f25-6f5b80960cf2")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
 					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8445,16 +8585,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "f69d1b71-af27-4dd9-a8f7-12d66e7b17c0")
+			(uuid "2d5e9b31-fc2b-4098-9063-c6932c96bb3f")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
 					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8515,16 +8663,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d3b5353-fc76-47c5-b57d-3916438f81e8")
+			(uuid "04790b5a-e27e-4f65-afc1-5f9e31e729bf")
 		)
 		(instances
 			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/84cf317d-4819-4b53-a1b5-da089dd40d50"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
 					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
 					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/fa547d88-44f2-44f0-9d14-59ceeb0f5768"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

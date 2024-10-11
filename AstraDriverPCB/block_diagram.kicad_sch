@@ -11,13 +11,363 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
-		(symbol "LiveAstra:JST_VH_8PIN_10A_250V"
+		(symbol "LiveAstra:AstraControl_Ground_Ring"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RING"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LiveAstra:AstraControl_Ground_Ring"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AstraControl_Ground_Ring_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -9.652 4.572)
+					(end 9.652 -4.572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AstraControl_Ground_Ring_1_1"
+				(circle
+					(center -9.398 -4.318)
+					(radius 0.508)
+					(stroke
+						(width 0.0508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -9.398 4.318)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 9.398 -4.318)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 9.398 4.318)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Information_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "INF"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Information_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -21.082 5.08)
+					(radius 1.524)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 41 182 246 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "i"
+					(at -21.0726 4.8456 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 41 182 246 1)
+						)
+					)
+				)
+				(text "Information"
+					(at -17.78 5.08 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 41 182 246 1)
+						)
+						(justify left)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:JST_VH_2PIN_10A_250V"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "CN"
-				(at 0 26.67 0)
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST VH 2 PIN"
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -25,13 +375,140 @@
 					)
 				)
 			)
-			(property "Value" "JST_VH_8PIN_10A_250V"
-				(at 0 -27.94 0)
+			(property "Footprint" "LiveAstra:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-B2P-VH-R-LF-SN_C265357.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1x2P 2P VH Tin 2 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C265357"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "10A 250V 3.96mm"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(property "MPN" "B2P-VH-R(LF)(SN)"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "JST"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_VH_2PIN_10A_250V_1_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:JST_VH_8PIN_10A_250V"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" "JST VH 8 PIN"
+				(at 0 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
 				)
 			)
 			(property "Footprint" "LiveAstra:JST_VH_B8P-VH-B_1x08_P3.96mm_Vertical"
@@ -959,44 +1436,126 @@
 		)
 	)
 	(junction
-		(at 73.66 50.8)
+		(at 106.68 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d27253f-a7c5-4b29-8050-873ec8b49bfc")
+	)
+	(junction
+		(at 106.68 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "149141bd-45ad-479e-9edc-8c34e176f037")
+	)
+	(junction
+		(at 106.68 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35ab1ed0-7fea-4c61-abfc-b7a53950d7b7")
+	)
+	(junction
+		(at 193.04 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54ababa2-39de-4506-a762-220c8e56d9e7")
+	)
+	(junction
+		(at 193.04 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75ecb111-9081-4d40-8a2c-2c47fb9bcd8a")
+	)
+	(junction
+		(at 193.04 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8767d50b-1e36-4f93-8476-297a82a2d00b")
+	)
+	(junction
+		(at 96.52 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "974f9997-0776-4317-8497-00c48682c122")
 	)
 	(junction
-		(at 73.66 78.74)
+		(at 193.04 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b3053ed-be04-4fbd-93d6-23ccc73368fe")
+	)
+	(junction
+		(at 96.52 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d81869c-64c0-4ca8-bac6-8a391f18fc49")
 	)
 	(junction
-		(at 55.88 50.8)
+		(at 78.74 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a16b2e7d-7694-4ca9-9eef-aaed7fdc75a5")
 	)
 	(junction
-		(at 73.66 63.5)
+		(at 96.52 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9f62263-ac27-4f1b-b3e4-ff199a2954b0")
 	)
 	(junction
-		(at 55.88 78.74)
+		(at 193.04 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be953c53-60c5-4220-ab77-026a40c6b195")
+	)
+	(junction
+		(at 78.74 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c45ef935-b68b-452c-8ee8-9dd7adeea941")
 	)
 	(junction
-		(at 55.88 63.5)
+		(at 193.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c51665da-a38d-4b80-b137-23e821a28c5e")
+	)
+	(junction
+		(at 193.04 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d717c1e6-d661-46b6-b13c-da85404afb19")
+	)
+	(junction
+		(at 78.74 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea4da2b7-6efb-4043-bc7f-dc92c6fc7a96")
 	)
+	(junction
+		(at 106.68 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4a2bb14-46f9-407f-84f1-fbc70d18ddcc")
+	)
+	(junction
+		(at 193.04 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb028d9a-fbc0-420d-a707-e4d06f686c67")
+	)
 	(wire
 		(pts
-			(xy 43.18 119.38) (xy 43.18 152.4)
+			(xy 106.68 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001d921b-4dd5-4401-8fd6-5db8e8b8c3dc")
+	)
+	(wire
+		(pts
+			(xy 66.04 114.3) (xy 66.04 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 63.5) (xy 83.82 63.5)
+			(xy 96.52 58.42) (xy 106.68 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1575,47 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 119.38) (xy 43.18 119.38)
+			(xy 172.72 142.24) (xy 172.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023ee222-5ac8-4766-93e8-b87e9d58bf41")
+	)
+	(wire
+		(pts
+			(xy 124.46 66.04) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02644425-9aeb-4875-824b-910f48c1e0a3")
+	)
+	(wire
+		(pts
+			(xy 215.9 152.4) (xy 215.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ca93a3-762e-4db5-b849-d3e3bba97b38")
+	)
+	(wire
+		(pts
+			(xy 193.04 157.48) (xy 215.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042c936b-dd72-44c1-8496-53db3ea8da39")
+	)
+	(wire
+		(pts
+			(xy 55.88 114.3) (xy 66.04 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1625,37 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 109.22) (xy 53.34 127)
+			(xy 172.72 114.3) (xy 172.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08373638-c987-42a5-a0d7-d56f5c1cf9ed")
+	)
+	(wire
+		(pts
+			(xy 215.9 142.24) (xy 215.9 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0936a160-3acb-43a7-b172-8cfc9a575465")
+	)
+	(wire
+		(pts
+			(xy 167.64 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11171a53-03b1-4e73-b5dd-2e8fc0798b51")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 76.2 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1665,27 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 104.14) (xy 58.42 104.14)
+			(xy 213.36 96.52) (xy 218.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16783076-f567-49b6-91a5-c608076732e9")
+	)
+	(wire
+		(pts
+			(xy 124.46 66.04) (xy 134.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5ba94d-51fe-4aa2-a4b9-2e6f738f6b6e")
+	)
+	(wire
+		(pts
+			(xy 55.88 99.06) (xy 81.28 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1695,57 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 152.4) (xy 83.82 152.4)
+			(xy 167.64 152.4) (xy 172.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6ebf5e-8589-4ed4-98f6-d0192a626fd2")
+	)
+	(wire
+		(pts
+			(xy 193.04 111.76) (xy 193.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c972b13-27e2-4af2-82f6-324a00cb0ef8")
+	)
+	(wire
+		(pts
+			(xy 167.64 119.38) (xy 172.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f54470a-4eba-4328-ac5c-2b3a42a611c3")
+	)
+	(wire
+		(pts
+			(xy 213.36 101.6) (xy 213.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213c7821-90a0-461c-bfb8-49803dc775a7")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220936e1-f37f-4f15-a735-0712a410a34d")
+	)
+	(wire
+		(pts
+			(xy 99.06 147.32) (xy 106.68 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1755,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 50.8) (xy 73.66 48.26)
+			(xy 213.36 86.36) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2582f97d-31f7-4105-8a0f-cedc5c4b442d")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72) (xy 96.52 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1775,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 124.46) (xy 83.82 127)
+			(xy 172.72 124.46) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2925a8b6-f6fc-4201-931f-95308dd1f5cb")
+	)
+	(wire
+		(pts
+			(xy 106.68 119.38) (xy 106.68 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1795,27 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 50.8) (xy 83.82 48.26)
+			(xy 172.72 86.36) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acd21c3-465e-417c-a331-cc34c9469bbd")
+	)
+	(wire
+		(pts
+			(xy 167.64 147.32) (xy 172.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d86b0ef-e98d-4c98-818b-c2d4494f238a")
+	)
+	(wire
+		(pts
+			(xy 106.68 45.72) (xy 106.68 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1825,37 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 99.06) (xy 66.04 99.06)
+			(xy 129.54 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a2edc1-78b4-404a-97b6-d8b13216f809")
+	)
+	(wire
+		(pts
+			(xy 215.9 147.32) (xy 218.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a77136-cb89-4d92-986f-d63393f9fb38")
+	)
+	(wire
+		(pts
+			(xy 193.04 139.7) (xy 193.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f8f3cc-f0fa-4561-a3fc-16469f4552a3")
+	)
+	(wire
+		(pts
+			(xy 55.88 93.98) (xy 88.9 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1096,7 +1865,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 73.66 63.5)
+			(xy 106.68 134.62) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af71916-4217-4115-bedb-cc8db38e970b")
+	)
+	(wire
+		(pts
+			(xy 96.52 55.88) (xy 96.52 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1106,7 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 114.3) (xy 83.82 114.3)
+			(xy 99.06 109.22) (xy 106.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 50.8) (xy 38.1 83.82)
+			(xy 60.96 45.72) (xy 60.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 50.8) (xy 83.82 50.8)
+			(xy 96.52 45.72) (xy 106.68 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 78.74) (xy 83.82 81.28)
+			(xy 106.68 73.66) (xy 106.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1146,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 78.74) (xy 73.66 78.74)
+			(xy 78.74 73.66) (xy 96.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1935,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 93.98) (xy 48.26 93.98)
+			(xy 213.36 68.58) (xy 218.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9ca4d6-895e-43e8-bee2-08e7e8cfe3b9")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 71.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1955,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 109.22) (xy 53.34 109.22)
+			(xy 172.72 101.6) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5153ad73-63bf-4bbb-b837-2e287c7508c2")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 76.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 149.86) (xy 83.82 152.4)
+			(xy 106.68 144.78) (xy 106.68 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1186,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 50.8) (xy 73.66 50.8)
+			(xy 78.74 45.72) (xy 96.52 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 63.5) (xy 55.88 63.5)
+			(xy 66.04 58.42) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +2005,27 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 104.14) (xy 58.42 114.3)
+			(xy 193.04 71.12) (xy 193.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2f86ee-8ee8-4f15-96c0-46f5c953a5a1")
+	)
+	(wire
+		(pts
+			(xy 172.72 68.58) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9aa5d6-cd6d-4b83-93f6-18c285e0aefa")
+	)
+	(wire
+		(pts
+			(xy 81.28 99.06) (xy 81.28 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +2035,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 63.5) (xy 83.82 60.96)
+			(xy 167.64 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61faa304-c084-476c-93d5-ac80aeee56aa")
+	)
+	(wire
+		(pts
+			(xy 106.68 58.42) (xy 106.68 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 139.7) (xy 83.82 139.7)
+			(xy 99.06 134.62) (xy 106.68 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +2065,27 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 111.76) (xy 83.82 114.3)
+			(xy 129.54 134.62) (xy 129.54 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e336a4-f605-4d33-9330-73cb5f71b0a9")
+	)
+	(wire
+		(pts
+			(xy 129.54 149.86) (xy 134.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f4acc2-453a-48f7-a599-67b15ae9b57b")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 106.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +2095,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 83.82) (xy 38.1 83.82)
+			(xy 193.04 129.54) (xy 213.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1baa74-5344-4747-bfdc-3937213ba60c")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.74) (xy 60.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +2115,57 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 63.5) (xy 43.18 88.9)
+			(xy 213.36 114.3) (xy 213.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777c4acd-8df0-4adb-903e-dea5e0df94ed")
+	)
+	(wire
+		(pts
+			(xy 167.64 63.5) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6828b2-7eb4-4c49-8b17-fcee1678ca4f")
+	)
+	(wire
+		(pts
+			(xy 106.68 109.22) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffa0fcb-10e8-4a95-bb34-9ac28ecdd0da")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8383838b-ef09-4aa9-9d54-74b7755d048a")
+	)
+	(wire
+		(pts
+			(xy 172.72 114.3) (xy 193.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847c32eb-8c4f-453a-be42-d58bc8e9013a")
+	)
+	(wire
+		(pts
+			(xy 66.04 58.42) (xy 66.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 76.2) (xy 73.66 78.74)
+			(xy 96.52 71.12) (xy 96.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 78.74) (xy 83.82 78.74)
+			(xy 96.52 73.66) (xy 106.68 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +2195,57 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 137.16) (xy 83.82 139.7)
+			(xy 193.04 58.42) (xy 213.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c366016-2433-44a6-b519-ab3a8d3ef4c2")
+	)
+	(wire
+		(pts
+			(xy 193.04 73.66) (xy 213.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9e6aba-3478-4913-a5fb-4a42f260295e")
+	)
+	(wire
+		(pts
+			(xy 172.72 129.54) (xy 193.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5fd535-147c-449c-bc70-02e2f368f4d2")
+	)
+	(wire
+		(pts
+			(xy 193.04 83.82) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8ee084-26ee-4e18-9142-b64dcba63bff")
+	)
+	(wire
+		(pts
+			(xy 172.72 142.24) (xy 193.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8b4eca-4688-4184-b264-17c221fa6fa1")
+	)
+	(wire
+		(pts
+			(xy 106.68 132.08) (xy 106.68 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 152.4) (xy 66.04 152.4)
+			(xy 66.04 147.32) (xy 88.9 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 83.82 99.06)
+			(xy 99.06 93.98) (xy 106.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +2275,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 127) (xy 66.04 127)
+			(xy 213.36 124.46) (xy 213.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e451c6-59f0-41ed-b993-69ebf37b1759")
+	)
+	(wire
+		(pts
+			(xy 76.2 121.92) (xy 88.9 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +2295,37 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 127) (xy 83.82 127)
+			(xy 172.72 58.42) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95751bfe-74d7-4f32-a0b9-3c5492662d40")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987f8dda-f76a-43da-ac3b-6bd3c58e3ff4")
+	)
+	(wire
+		(pts
+			(xy 193.04 55.88) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b882c8-1332-4efb-93b3-5155177e981e")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 106.68 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +2335,67 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 63.5) (xy 73.66 63.5)
+			(xy 172.72 86.36) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8aeff4-9686-475c-a25c-ff97dff1e292")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 193.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c8cd9f-8bae-4742-8a29-487f2c635425")
+	)
+	(wire
+		(pts
+			(xy 193.04 154.94) (xy 193.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab08e975-e796-4b10-81bd-90db6648effd")
+	)
+	(wire
+		(pts
+			(xy 172.72 157.48) (xy 193.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4654d9c-81e8-4342-90c4-b6ed9dac62b0")
+	)
+	(wire
+		(pts
+			(xy 215.9 152.4) (xy 218.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b560f00d-14d3-4576-b59a-1b0c0a4977a7")
+	)
+	(wire
+		(pts
+			(xy 172.72 152.4) (xy 172.72 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b652f9cf-b95e-4808-a3ea-ac6ec5a2fa9a")
+	)
+	(wire
+		(pts
+			(xy 78.74 58.42) (xy 96.52 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 114.3) (xy 48.26 114.3)
+			(xy 55.88 109.22) (xy 71.12 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +2415,27 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 50.8) (xy 55.88 50.8)
+			(xy 193.04 86.36) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3d018a-72ec-43d6-bbae-f0aeb25f61f3")
+	)
+	(wire
+		(pts
+			(xy 213.36 58.42) (xy 213.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c9527a-1ee3-407d-adb8-a44aa2771a48")
+	)
+	(wire
+		(pts
+			(xy 60.96 45.72) (xy 78.74 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +2445,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 88.9) (xy 43.18 88.9)
+			(xy 213.36 119.38) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f416cd-c526-4c8c-b49e-b5c45188da7b")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 66.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 114.3) (xy 66.04 114.3)
+			(xy 81.28 109.22) (xy 88.9 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +2475,47 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 76.2) (xy 55.88 78.74)
+			(xy 213.36 63.5) (xy 218.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf57c353-ca0e-4b73-bf4a-f64d180ae13c")
+	)
+	(wire
+		(pts
+			(xy 106.68 121.92) (xy 134.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff05f32-e39c-45de-b3d7-6b3c3c8d968a")
+	)
+	(wire
+		(pts
+			(xy 172.72 58.42) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f804e6-bf79-4a22-8f53-8fbb92ff9d9c")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 213.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6aae28f-1b22-4b05-8224-1d26e0ca0cb2")
+	)
+	(wire
+		(pts
+			(xy 78.74 71.12) (xy 78.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +2525,27 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 78.74) (xy 55.88 78.74)
+			(xy 193.04 142.24) (xy 215.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc48e23-d3aa-4337-af3a-e38e0b92894e")
+	)
+	(wire
+		(pts
+			(xy 193.04 114.3) (xy 213.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b9153c-ad25-4c6f-8632-ff76ad3f3091")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 78.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1406,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 139.7) (xy 66.04 139.7)
+			(xy 71.12 134.62) (xy 88.9 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1416,7 +2565,37 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 78.74) (xy 48.26 93.98)
+			(xy 213.36 68.58) (xy 213.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea420557-026f-4ed8-8c13-a2ce76b73871")
+	)
+	(wire
+		(pts
+			(xy 193.04 127) (xy 193.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd60be3-1c62-4377-9638-64871858dde2")
+	)
+	(wire
+		(pts
+			(xy 213.36 124.46) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00aae11-485d-42d1-8b5b-d124e03797c9")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 71.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +2605,27 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 114.3) (xy 48.26 139.7)
+			(xy 213.36 91.44) (xy 218.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ebdb55-905e-40ad-bc40-c26874a6de78")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ed72f4-df82-4ee4-8469-ac2a31f98b0c")
+	)
+	(wire
+		(pts
+			(xy 71.12 109.22) (xy 71.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +2635,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 96.52) (xy 83.82 99.06)
+			(xy 167.64 124.46) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff872cad-6a16-4319-bfb2-4466f63ad0da")
+	)
+	(wire
+		(pts
+			(xy 106.68 91.44) (xy 106.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1444,8 +2653,20 @@
 		)
 		(uuid "ffc28a74-d346-4311-be6e-214709dddcaf")
 	)
+	(text "PWM at 3.3V\n3.3V is not used."
+		(exclude_from_sim no)
+		(at 49.53 166.37 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "884e198f-b5fe-4d79-8093-ab2ca67361b7")
+	)
 	(label "RESERVED"
-		(at 35.56 119.38 0)
+		(at 58.42 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1456,7 +2677,7 @@
 		(uuid "35e8721d-4b96-4acf-85e5-d1360580b19d")
 	)
 	(label "PWM_CH4"
-		(at 35.56 99.06 0)
+		(at 58.42 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1467,7 +2688,7 @@
 		(uuid "5bdd0b0a-2605-46a7-bc9f-3709b4c8d55d")
 	)
 	(label "PWM_CH2"
-		(at 35.56 109.22 0)
+		(at 58.42 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1478,7 +2699,7 @@
 		(uuid "d4e5d201-7895-4e0c-bfd7-9f9696d56783")
 	)
 	(label "PWM_CH1"
-		(at 35.56 114.3 0)
+		(at 58.42 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1489,7 +2710,7 @@
 		(uuid "ea2acf6e-a7bb-480b-81aa-bf530b767128")
 	)
 	(label "PWM_CH3"
-		(at 35.56 104.14 0)
+		(at 58.42 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1501,16 +2722,16 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 55.88 76.2 0)
+		(at 193.04 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b0fab60-0280-4cd9-8020-adef1952b64d")
-		(property "Reference" "TP6"
-			(at 58.42 70.3876 0)
+		(uuid "0f6fe462-9e82-4dd9-8e1e-9bdf6eb048bb")
+		(property "Reference" "TP12"
+			(at 195.58 93.2476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +2740,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 55.88 86.36 0)
+			(at 193.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +2749,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 55.88 91.44 0)
+			(at 193.04 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +2758,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 55.88 71.12 90)
+			(at 193.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +2767,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 55.88 71.12 90)
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +2776,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 55.88 96.52 0)
+			(at 193.04 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +2785,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 58.42 72.9276 0)
+			(at 195.58 95.7876 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1574,7 +2795,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 55.88 105.41 0)
+			(at 193.04 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,7 +2804,497 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 55.88 105.41 0)
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d2c4467-32b8-486c-962c-a5360ddac1e7")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 193.04 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12ab7c6d-7fe7-42f9-a248-108593330b95")
+		(property "Reference" "TP14"
+			(at 195.58 121.1876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 193.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points / Test Rings ROHS"
+			(at 193.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 193.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 195.58 123.7276 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 193.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 193.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "623a8387-921d-4272-b8b8-b4d20ae1321a")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:JST_VH_2PIN_10A_250V")
+		(at 223.52 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16cae2c8-9caa-4f88-92c6-8357256cc49b")
+		(property "Reference" "CN5"
+			(at 229.87 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST VH 2 PIN"
+			(at 229.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LiveAstra:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+			(at 223.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-B2P-VH-R-LF-SN_C265357.html"
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2P 2P VH Tin 2 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
+			(at 223.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C265357"
+			(at 223.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "10A 250V 3.96mm"
+			(at 229.87 152.3999 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "B2P-VH-R(LF)(SN)"
+			(at 223.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 223.52 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5eb23ad-6b45-439d-b320-a6955e66fc64")
+		)
+		(pin "2"
+			(uuid "2ca640f2-80d6-4317-9edb-7b86ee3a91fb")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "212bace3-e9a0-4045-b036-0eab77f8dedf")
+		(property "Reference" "#PWR40"
+			(at 254 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9fe5547-e00f-4b68-bcbe-54a34e749bba")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "#PWR40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:JST_VH_2PIN_10A_250V")
+		(at 223.52 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2579ed98-6319-441c-9552-d242e51ea7e8")
+		(property "Reference" "CN2"
+			(at 229.87 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST VH 2 PIN"
+			(at 229.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LiveAstra:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-B2P-VH-R-LF-SN_C265357.html"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2P 2P VH Tin 2 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
+			(at 223.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C265357"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "10A 250V 3.96mm"
+			(at 229.87 68.5799 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "B2P-VH-R(LF)(SN)"
+			(at 223.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10cb5b83-4205-4302-9501-e8f41894ac4d")
+		)
+		(pin "2"
+			(uuid "fe7e6419-cb63-4648-af28-39bd3b0859af")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 78.74 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b0fab60-0280-4cd9-8020-adef1952b64d")
+		(property "Reference" "TP3"
+			(at 81.28 65.3076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points / Test Rings ROHS"
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 81.28 67.8476 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 78.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,7 +3308,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "TP6")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -1605,7 +3316,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 83.82 96.52 0)
+		(at 106.68 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1613,8 +3324,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a0b774-54a2-45d0-a2bd-c6b3429386e5")
-		(property "Reference" "TP5"
-			(at 86.36 90.7076 0)
+		(property "Reference" "TP4"
+			(at 109.22 85.6276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +3334,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 83.82 106.68 0)
+			(at 106.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +3343,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 83.82 111.76 0)
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +3352,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 83.82 91.44 90)
+			(at 106.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +3361,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 83.82 91.44 90)
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +3370,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 83.82 116.84 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +3379,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 86.36 93.2476 0)
+			(at 109.22 88.1676 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1678,7 +3389,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 83.82 125.73 0)
+			(at 106.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +3398,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 83.82 125.73 0)
+			(at 106.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +3412,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1709,7 +3420,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 83.82 48.26 0)
+		(at 106.68 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1717,8 +3428,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449640b2-0303-4c82-80cd-0237e676e168")
-		(property "Reference" "#PWR03"
-			(at 83.82 52.07 0)
+		(property "Reference" "#PWR1"
+			(at 106.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +3438,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 43.18 0)
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 48.26 0)
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 48.26 0)
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +3464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 83.82 48.26 0)
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +3478,7 @@
 		(instances
 			(project ""
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "#PWR03")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -1775,7 +3486,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 83.82 60.96 0)
+		(at 106.68 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1783,8 +3494,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ddebc3-3eb5-4f8c-ad3a-8420aea97c44")
-		(property "Reference" "#PWR02"
-			(at 83.82 64.77 0)
+		(property "Reference" "#PWR2"
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +3504,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 83.82 55.88 0)
+			(at 106.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +3512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 60.96 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +3521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 60.96 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +3530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 83.82 60.96 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +3544,111 @@
 		(instances
 			(project ""
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "#PWR02")
+					(reference "#PWR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 193.04 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fcd4c3a-fedd-44f0-92e5-59c48b9f0b38")
+		(property "Reference" "TP16"
+			(at 195.58 149.1276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 193.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 193.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+			(at 193.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points / Test Rings ROHS"
+			(at 193.04 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 193.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 195.58 151.6676 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 193.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 193.04 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61cb120f-c7b0-4e35-93d3-ec1a7a314924")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -1841,7 +3656,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 73.66 48.26 0)
+		(at 96.52 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1849,8 +3664,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ffb6bc7-7d6c-4dcc-92d6-7ece59aaa1c7")
-		(property "Reference" "#FLG03"
-			(at 73.66 46.355 0)
+		(property "Reference" "#FLG1"
+			(at 96.52 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +3674,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 73.66 43.18 0)
+			(at 96.52 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +3682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 48.26 0)
+			(at 96.52 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +3691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 48.26 0)
+			(at 96.52 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +3700,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 48.26 0)
+			(at 96.52 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +3714,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "#FLG03")
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)
@@ -1907,7 +3722,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 83.82 137.16 0)
+		(at 106.68 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1915,8 +3730,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c551ee-6d89-4bc3-b375-c1c54d14e93a")
-		(property "Reference" "TP1"
-			(at 86.36 131.3476 0)
+		(property "Reference" "TP7"
+			(at 109.22 126.2676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +3740,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 83.82 147.32 0)
+			(at 106.68 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +3749,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 83.82 152.4 0)
+			(at 106.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +3758,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 83.82 132.08 90)
+			(at 106.68 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +3767,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 83.82 132.08 90)
+			(at 106.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +3776,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 83.82 157.48 0)
+			(at 106.68 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +3785,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 86.36 133.8876 0)
+			(at 109.22 128.8076 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1980,7 +3795,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 83.82 166.37 0)
+			(at 106.68 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +3804,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 83.82 166.37 0)
+			(at 106.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +3818,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "TP1")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -2011,7 +3826,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 81.28 0)
+		(at 106.68 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2019,8 +3834,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "575c384a-1a39-477e-84d6-0f9db68962ad")
-		(property "Reference" "#PWR01"
-			(at 83.82 87.63 0)
+		(property "Reference" "#PWR3"
+			(at 106.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +3844,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 86.36 0)
+			(at 106.68 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +3852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 81.28 0)
+			(at 106.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +3861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 81.28 0)
+			(at 106.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +3870,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 81.28 0)
+			(at 106.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +3884,173 @@
 		(instances
 			(project ""
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "#PWR01")
+					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:Information_Box")
+		(at 71.12 163.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d87aba9-2844-44b3-9115-373cacfa93b7")
+		(property "Reference" "INF2"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "INF2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 193.04 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e1ee342-2ae4-4cd2-92e2-089eed7a8b7c")
+		(property "Reference" "TP9"
+			(at 195.58 50.0676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 193.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 193.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+			(at 193.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points / Test Rings ROHS"
+			(at 193.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 195.58 52.6076 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 193.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7044b66b-740e-4870-9dbf-7d91f27fa4aa")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -2077,7 +4058,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
-		(at 71.12 99.06 0)
+		(at 93.98 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2085,8 +4066,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bf14cbd-fc07-4855-ba1b-4a7cd5f76b7d")
-		(property "Reference" "R5"
-			(at 71.12 90.17 0)
+		(property "Reference" "R1"
+			(at 93.98 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +4075,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 71.12 92.71 0)
+			(at 93.98 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +4084,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 71.12 111.76 0)
+			(at 93.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +4093,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
-			(at 71.12 107.95 0)
+			(at 93.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +4102,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±800ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 71.12 104.14 0)
+			(at 93.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +4111,7 @@
 			)
 		)
 		(property "LCSC Part" "C17477"
-			(at 71.12 115.57 0)
+			(at 93.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +4120,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805"
-			(at 71.12 95.25 0)
+			(at 93.98 90.17 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2148,7 +4129,7 @@
 			)
 		)
 		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 71.12 119.38 0)
+			(at 93.98 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +4138,7 @@
 			)
 		)
 		(property "MPN" "0805W8F0000T5E"
-			(at 71.12 119.38 0)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +4155,73 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "R5")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:AstraControl_Ground_Ring")
+		(at 254 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c1bf269-690f-4e72-a847-f4ffd7ec1486")
+		(property "Reference" "RING1"
+			(at 265.43 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:AstraControl_Ground_Ring"
+			(at 254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33c39bf9-bcb9-475a-b8b7-626297071077")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "RING1")
 					(unit 1)
 				)
 			)
@@ -2182,7 +4229,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 73.66 76.2 0)
+		(at 96.52 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2190,8 +4237,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d5ad641-c15e-437b-917f-d77d50de19d7")
-		(property "Reference" "#FLG01"
-			(at 73.66 74.295 0)
+		(property "Reference" "#FLG3"
+			(at 96.52 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +4247,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 73.66 71.12 0)
+			(at 96.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +4255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 76.2 0)
+			(at 96.52 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +4264,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 76.2 0)
+			(at 96.52 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +4273,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 76.2 0)
+			(at 96.52 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +4287,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "#FLG01")
+					(reference "#FLG3")
 					(unit 1)
 				)
 			)
@@ -2248,7 +4295,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 73.66 60.96 0)
+		(at 96.52 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2256,8 +4303,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ed3a9c6-18eb-4364-b397-00dfc12d490b")
-		(property "Reference" "#FLG02"
-			(at 73.66 59.055 0)
+		(property "Reference" "#FLG2"
+			(at 96.52 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +4313,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 73.66 55.88 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +4321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 60.96 0)
+			(at 96.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +4330,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 60.96 0)
+			(at 96.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +4339,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 60.96 0)
+			(at 96.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,32 +4353,147 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "#FLG02")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:JST_VH_8PIN_10A_250V")
-		(at 27.94 101.6 180)
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 193.04 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "740a260e-864c-4818-ae56-d57675364f2b")
+		(property "Reference" "TP10"
+			(at 195.58 65.3076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 193.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points / Test Rings ROHS"
+			(at 193.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 193.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 195.58 67.8476 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3e34ef0-6ba0-46a5-b5ff-1d2e04b7b6f4")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:JST_VH_2PIN_10A_250V")
+		(at 223.52 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "79151b42-bfbf-4ac5-8230-cb5507d7511e")
-		(property "Reference" "CN1"
-			(at 27.94 73.66 0)
+		(fields_autoplaced yes)
+		(uuid "77948ed3-2166-4126-8aae-e37bd5152e86")
+		(property "Reference" "CN3"
+			(at 229.87 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST VH 2 PIN"
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "JST_VH_8PIN_10A_250V"
-			(at 27.94 73.66 0)
+		(property "Footprint" "LiveAstra:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+			(at 223.52 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,8 +4501,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LiveAstra:JST_VH_B8P-VH-B_1x08_P3.96mm_Vertical"
-			(at 27.94 68.58 0)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-B2P-VH-R-LF-SN_C265357.html"
+			(at 223.52 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,8 +4510,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/_JST-Sales-America_B8P-VH-B-LF-SN_JST-Sales-America-B8P-VH-B-LF-SN_C265117.html"
-			(at 27.94 63.5 0)
+		(property "Description" "1x2P 2P VH Tin 2 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
+			(at 223.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,17 +4519,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1x8P 8P VH Tin 8 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
-			(at 27.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C265117"
-			(at 27.94 58.42 0)
+		(property "LCSC Part" "C265357"
+			(at 223.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,16 +4529,17 @@
 			)
 		)
 		(property "Extra Values" "10A 250V 3.96mm"
-			(at 27.94 76.2 0)
+			(at 229.87 96.5199 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 					(bold yes)
 				)
+				(justify left)
 			)
 		)
-		(property "MPN" "B8P-VH-B(LF)(SN)"
-			(at 27.94 54.61 0)
+		(property "MPN" "B2P-VH-R(LF)(SN)"
+			(at 223.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +4548,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 27.94 50.8 0)
+			(at 223.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,34 +4556,16 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "a0c0c38c-a926-4b40-947e-86f3e5ef4a1e")
+		(pin "1"
+			(uuid "1bf826e8-e366-49b0-9830-87dcc889aa43")
 		)
 		(pin "2"
-			(uuid "9af5b4a9-9b51-425b-abad-0d3b98e662ae")
-		)
-		(pin "8"
-			(uuid "1e6a7161-3980-4107-ad76-7baf704952f4")
-		)
-		(pin "6"
-			(uuid "53ff5f3e-0c62-4c41-a62a-fc0949fe4698")
-		)
-		(pin "7"
-			(uuid "fd40d3cf-6b75-4cfa-87ae-b6dd7628d6fc")
-		)
-		(pin "5"
-			(uuid "c9760d1e-d01a-4ae0-9780-b25adf41ae1b")
-		)
-		(pin "3"
-			(uuid "5ce6bee5-662b-4dfb-a926-b4d59ee2c21e")
-		)
-		(pin "1"
-			(uuid "5cfc91cb-1bc1-414a-98e6-7e5a377240ad")
+			(uuid "c9159a4b-e185-4861-8032-4ea639757c48")
 		)
 		(instances
-			(project ""
+			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "CN1")
+					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -2437,7 +4573,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
-		(at 71.12 139.7 0)
+		(at 93.98 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2445,8 +4581,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80b982d2-8ebd-426f-9ded-b4604d63f283")
-		(property "Reference" "R2"
-			(at 71.12 130.81 0)
+		(property "Reference" "R4"
+			(at 93.98 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +4590,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 71.12 133.35 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +4599,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 71.12 152.4 0)
+			(at 93.98 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +4608,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
-			(at 71.12 148.59 0)
+			(at 93.98 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +4617,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±800ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 71.12 144.78 0)
+			(at 93.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +4626,7 @@
 			)
 		)
 		(property "LCSC Part" "C17477"
-			(at 71.12 156.21 0)
+			(at 93.98 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +4635,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805"
-			(at 71.12 135.89 0)
+			(at 93.98 130.81 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2508,7 +4644,7 @@
 			)
 		)
 		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 71.12 160.02 0)
+			(at 93.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +4653,7 @@
 			)
 		)
 		(property "MPN" "0805W8F0000T5E"
-			(at 71.12 160.02 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +4670,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2542,7 +4678,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 55.88 63.5 0)
+		(at 78.74 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2550,8 +4686,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a93573-f00d-4c69-84a8-6b8cfef76932")
-		(property "Reference" "TP7"
-			(at 58.42 57.6876 0)
+		(property "Reference" "TP2"
+			(at 81.28 52.6076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +4696,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 55.88 73.66 0)
+			(at 78.74 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +4705,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 55.88 78.74 0)
+			(at 78.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +4714,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 55.88 58.42 90)
+			(at 78.74 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +4723,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 55.88 58.42 90)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +4732,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 55.88 83.82 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +4741,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 58.42 60.2276 0)
+			(at 81.28 55.1476 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2615,7 +4751,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 55.88 92.71 0)
+			(at 78.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +4760,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 55.88 92.71 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +4774,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "TP7")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -2646,7 +4782,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
-		(at 71.12 114.3 0)
+		(at 93.98 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2654,8 +4790,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89c06282-8389-4540-a3b9-7186d39ef702")
-		(property "Reference" "R4"
-			(at 71.12 105.41 0)
+		(property "Reference" "R2"
+			(at 93.98 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +4799,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 71.12 107.95 0)
+			(at 93.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +4808,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 71.12 127 0)
+			(at 93.98 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +4817,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
-			(at 71.12 123.19 0)
+			(at 93.98 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +4826,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±800ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 71.12 119.38 0)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +4835,7 @@
 			)
 		)
 		(property "LCSC Part" "C17477"
-			(at 71.12 130.81 0)
+			(at 93.98 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +4844,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805"
-			(at 71.12 110.49 0)
+			(at 93.98 105.41 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2717,7 +4853,7 @@
 			)
 		)
 		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 71.12 134.62 0)
+			(at 93.98 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +4862,7 @@
 			)
 		)
 		(property "MPN" "0805W8F0000T5E"
-			(at 71.12 134.62 0)
+			(at 93.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +4879,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2751,7 +4887,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
-		(at 71.12 127 0)
+		(at 93.98 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2760,7 +4896,7 @@
 		(fields_autoplaced yes)
 		(uuid "93168a3a-d36c-49e1-b26d-6b95ac4c5506")
 		(property "Reference" "R3"
-			(at 71.12 118.11 0)
+			(at 93.98 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +4904,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 71.12 120.65 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +4913,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 71.12 139.7 0)
+			(at 93.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +4922,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
-			(at 71.12 135.89 0)
+			(at 93.98 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +4931,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±800ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 71.12 132.08 0)
+			(at 93.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +4940,7 @@
 			)
 		)
 		(property "LCSC Part" "C17477"
-			(at 71.12 143.51 0)
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +4949,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805"
-			(at 71.12 123.19 0)
+			(at 93.98 118.11 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2822,7 +4958,7 @@
 			)
 		)
 		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 71.12 147.32 0)
+			(at 93.98 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +4967,7 @@
 			)
 		)
 		(property "MPN" "0805W8F0000T5E"
-			(at 71.12 147.32 0)
+			(at 93.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +4992,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 83.82 124.46 0)
+		(at 106.68 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2864,8 +5000,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99406337-b634-4e6a-87a8-b7893319186b")
-		(property "Reference" "TP2"
-			(at 86.36 118.6476 0)
+		(property "Reference" "TP6"
+			(at 109.22 113.5676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +5010,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 83.82 134.62 0)
+			(at 106.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +5019,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 83.82 139.7 0)
+			(at 106.68 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +5028,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 83.82 119.38 90)
+			(at 106.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +5037,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 83.82 119.38 90)
+			(at 106.68 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +5046,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 83.82 144.78 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +5055,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 86.36 121.1876 0)
+			(at 109.22 116.1076 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2929,7 +5065,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 83.82 153.67 0)
+			(at 106.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +5074,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 83.82 153.67 0)
+			(at 106.68 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +5088,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "TP2")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2960,7 +5096,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 55.88 50.8 0)
+		(at 78.74 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2968,8 +5104,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9952bb35-5f5a-402d-a8c5-1fb2b08ce733")
-		(property "Reference" "TP8"
-			(at 58.42 44.9876 0)
+		(property "Reference" "TP1"
+			(at 81.28 39.9076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +5114,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 55.88 60.96 0)
+			(at 78.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +5123,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 55.88 66.04 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +5132,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 55.88 45.72 90)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +5141,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 55.88 45.72 90)
+			(at 78.74 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +5150,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 55.88 71.12 0)
+			(at 78.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +5159,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 58.42 47.5276 0)
+			(at 81.28 42.4476 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3033,7 +5169,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 55.88 80.01 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +5178,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 55.88 80.01 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +5192,115 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "TP8")
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:JST_VH_2PIN_10A_250V")
+		(at 223.52 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abdd49db-61a1-4576-bcfd-a425fa4c79a8")
+		(property "Reference" "CN4"
+			(at 229.87 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST VH 2 PIN"
+			(at 229.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LiveAstra:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-B2P-VH-R-LF-SN_C265357.html"
+			(at 223.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2P 2P VH Tin 2 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C265357"
+			(at 223.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "10A 250V 3.96mm"
+			(at 229.87 124.4599 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "B2P-VH-R(LF)(SN)"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 223.52 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a992e1f0-760c-4ded-aee9-6acc86a3b9fb")
+		)
+		(pin "2"
+			(uuid "91566e4a-36f8-48dc-80d1-b72b2b42c880")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -3064,7 +5308,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 83.82 111.76 0)
+		(at 106.68 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3072,8 +5316,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3780b27-9cd0-48e8-a56d-389ac06b921c")
-		(property "Reference" "TP4"
-			(at 86.36 105.9476 0)
+		(property "Reference" "TP5"
+			(at 109.22 100.8676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +5326,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 83.82 121.92 0)
+			(at 106.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +5335,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 83.82 127 0)
+			(at 106.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +5344,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 83.82 106.68 90)
+			(at 106.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +5353,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 83.82 106.68 90)
+			(at 106.68 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +5362,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 83.82 132.08 0)
+			(at 106.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +5371,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 86.36 108.4876 0)
+			(at 109.22 103.4076 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3137,7 +5381,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 83.82 140.97 0)
+			(at 106.68 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +5390,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 83.82 140.97 0)
+			(at 106.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +5404,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -3168,7 +5412,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 83.82 149.86 0)
+		(at 106.68 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3176,8 +5420,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6350b7e-a3d2-48ff-a1fa-1c7c6d2c72a9")
-		(property "Reference" "TP3"
-			(at 86.36 144.0476 0)
+		(property "Reference" "TP8"
+			(at 109.22 138.9676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +5430,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 83.82 160.02 0)
+			(at 106.68 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +5439,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 83.82 165.1 0)
+			(at 106.68 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +5448,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 83.82 144.78 90)
+			(at 106.68 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +5457,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 83.82 144.78 90)
+			(at 106.68 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +5466,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 83.82 170.18 0)
+			(at 106.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +5475,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 86.36 146.5876 0)
+			(at 109.22 141.5076 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3241,7 +5485,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 83.82 179.07 0)
+			(at 106.68 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +5494,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 83.82 179.07 0)
+			(at 106.68 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +5508,339 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "TP3")
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:JST_VH_8PIN_10A_250V")
+		(at 50.8 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d383aa74-564d-4e16-a63b-b191e0f9f349")
+		(property "Reference" "CN6"
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "JST VH 8 PIN"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:JST_VH_B8P-VH-B_1x08_P3.96mm_Vertical"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/_JST-Sales-America_B8P-VH-B-LF-SN_JST-Sales-America-B8P-VH-B-LF-SN_C265117.html"
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x8P 8P VH Tin 8 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C265117"
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "10A 250V 3.96mm"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "MPN" "B8P-VH-B(LF)(SN)"
+			(at 50.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "36717057-4000-44d3-9435-2d7cb51cbff5")
+		)
+		(pin "2"
+			(uuid "c0b35c21-1bc4-4ca4-861d-5871bff27b2d")
+		)
+		(pin "8"
+			(uuid "0f604bd5-04c4-496c-bdaf-0cefee5c56df")
+		)
+		(pin "1"
+			(uuid "903a87ff-ba78-456f-a435-fd6c514a504a")
+		)
+		(pin "7"
+			(uuid "37a20075-2af3-464e-b052-195ebe01833b")
+		)
+		(pin "5"
+			(uuid "46cf1ca1-35f0-40bb-9af1-56eac48f6484")
+		)
+		(pin "3"
+			(uuid "111a4cdd-7642-428e-880d-c30fcccc6dbf")
+		)
+		(pin "4"
+			(uuid "c434b8d5-87a3-4b43-8077-428b0d256d97")
+		)
+		(instances
+			(project ""
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "CN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 193.04 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4da2a80-fb08-453d-9179-38422834acdb")
+		(property "Reference" "TP13"
+			(at 195.58 105.9476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 193.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+			(at 193.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points / Test Rings ROHS"
+			(at 193.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 195.58 108.4876 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 193.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1db692c-04b3-4d53-b0e2-5851aa52bed1")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 193.04 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfc8e862-163d-4d5b-975c-e40d8500ddb2")
+		(property "Reference" "TP15"
+			(at 195.58 133.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 193.04 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+			(at 193.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points / Test Rings ROHS"
+			(at 193.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 193.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 195.58 136.4276 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 193.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 193.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd5e6d9d-77e0-4c26-92b7-54a55405d955")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -3272,7 +5848,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
-		(at 71.12 152.4 0)
+		(at 93.98 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3280,8 +5856,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efa786cc-d669-43d0-82fa-8e2b2423f59f")
-		(property "Reference" "R1"
-			(at 71.12 143.51 0)
+		(property "Reference" "R5"
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +5865,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 71.12 146.05 0)
+			(at 93.98 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +5874,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 71.12 165.1 0)
+			(at 93.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +5883,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
-			(at 71.12 161.29 0)
+			(at 93.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +5892,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±800ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 71.12 157.48 0)
+			(at 93.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +5901,7 @@
 			)
 		)
 		(property "LCSC Part" "C17477"
-			(at 71.12 168.91 0)
+			(at 93.98 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +5910,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805"
-			(at 71.12 148.59 0)
+			(at 93.98 143.51 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3343,7 +5919,7 @@
 			)
 		)
 		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 71.12 172.72 0)
+			(at 93.98 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +5928,7 @@
 			)
 		)
 		(property "MPN" "0805W8F0000T5E"
-			(at 71.12 172.72 0)
+			(at 93.98 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,15 +5945,255 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
-					(reference "R1")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 193.04 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7268e54-d445-492c-a6e7-ca372febbaff")
+		(property "Reference" "TP11"
+			(at 195.58 78.0076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 193.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points / Test Rings ROHS"
+			(at 193.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 193.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 195.58 80.5476 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 193.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a54f8f8f-5321-4251-97e9-7129030778e9")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 180.34 106.68)
-		(size 33.02 20.32)
+		(at 134.62 114.3)
+		(size 33.02 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2917a49e-0b0c-4bc9-a147-180770b18779")
+		(property "Sheetname" "Channel 2 2.5A"
+			(at 134.62 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_driver_2A5.kicad_sch"
+			(at 134.62 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED+" output
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5cea48b5-03c3-405e-87aa-d1617ac02e3d")
+		)
+		(pin "LED-" output
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a25532a0-b57e-42e7-a7be-fa632ae1ce5a")
+		)
+		(pin "DIM" input
+			(at 134.62 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e093598-2b93-43d7-b457-55901fa8094d")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 86.36)
+		(size 33.02 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce")
+		(property "Sheetname" "Channel 3 2.5A"
+			(at 134.62 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_driver_2A5.kicad_sch"
+			(at 134.62 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED+" output
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a2d97f5-7f2f-4ea3-850e-2b8a0f17ed5e")
+		)
+		(pin "LED-" output
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b0989cdc-efc9-420a-bb48-3862570ac4ff")
+		)
+		(pin "DIM" input
+			(at 134.62 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9027580c-361a-400f-a73f-b7c1a99d89ba")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 142.24)
+		(size 33.02 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3387,8 +6203,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e6bfebdf-aa19-4866-bf09-731e468084aa")
-		(property "Sheetname" "Channel 1"
-			(at 180.34 105.9684 0)
+		(property "Sheetname" "Channel 1 2.5A"
+			(at 134.62 141.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,8 +6212,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "channel_one.kicad_sch"
-			(at 180.34 127.5846 0)
+		(property "Sheetfile" "led_driver_2A5.kicad_sch"
+			(at 134.62 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,10 +6221,108 @@
 				(justify left top)
 			)
 		)
+		(pin "LED+" output
+			(at 167.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a7545af-6da4-4e2b-ba9c-210a27c828d4")
+		)
+		(pin "LED-" output
+			(at 167.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99e1ef9f-46e7-4026-89c3-ebb683e2e315")
+		)
+		(pin "DIM" input
+			(at 134.62 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9244e30-ada6-45cc-bc52-870761fac4b9")
+		)
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 58.42)
+		(size 33.02 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa547d88-44f2-44f0-9d14-59ceeb0f5768")
+		(property "Sheetname" "Channel 4 2A"
+			(at 134.62 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_driver_2A.kicad_sch"
+			(at 134.62 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED+" output
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b025b499-1c79-49b7-8f6b-527f17eb52c1")
+		)
+		(pin "LED-" output
+			(at 167.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d940654-ed5a-49da-b37f-d2af401e8b47")
+		)
+		(pin "DIM" input
+			(at 134.62 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec788f43-1587-49d5-9cc6-05830d105bf7")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(page "7")
 				)
 			)
 		)

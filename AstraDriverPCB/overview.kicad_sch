@@ -1434,7 +1434,7 @@
 		(fields_autoplaced yes)
 		(uuid "66fb6ec0-a463-4373-8e9b-eadeb57b25de")
 		(property "Reference" "INF1"
-			(at 101.6 158.75 0)
+			(at 101.6 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1442,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 101.6 161.29 0)
+			(at 86.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,6 +1483,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/266764c8-9259-40c1-8d01-d8390298a222"
+					(reference "INF1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1496,7 +1502,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b74295f-7f32-4b2a-8b1a-e4f1853876ff")
 		(property "Reference" "WRN1"
-			(at 213.36 158.75 0)
+			(at 213.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1510,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 213.36 161.29 0)
+			(at 198.882 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,6 +1551,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/266764c8-9259-40c1-8d01-d8390298a222"
+					(reference "WRN1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1558,7 +1570,7 @@
 		(fields_autoplaced yes)
 		(uuid "814144f5-89a6-4a1c-b1db-062dc3b5df8c")
 		(property "Reference" "CRT1"
-			(at 157.48 158.75 0)
+			(at 157.48 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1578,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 157.48 161.29 0)
+			(at 143.002 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,6 +1619,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/266764c8-9259-40c1-8d01-d8390298a222"
+					(reference "CRT1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1620,7 +1638,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0c0d40e-a15d-4a02-92a5-896719770cfd")
 		(property "Reference" "QST1"
-			(at 45.72 158.75 0)
+			(at 45.72 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1646,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 45.72 161.29 0)
+			(at 31.242 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,6 +1683,12 @@
 		(instances
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
+					(reference "QST1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/266764c8-9259-40c1-8d01-d8390298a222"
 					(reference "QST1")
 					(unit 1)
 				)
