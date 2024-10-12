@@ -184,7 +184,7 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:C_22uF_X5R_0603"
+		(symbol "LiveAstra:C_22uF_X5R_0805"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -207,25 +207,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:C_0603_1608Metric"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -234,7 +216,34 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C59461"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A226MAQNNNE_22uF-226-20-25V_C45783.html"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 1.27 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C45783"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL21A226MAQNNNE"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -243,25 +252,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "6.3V X5R 20% 0603"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(property "MPN" "CL10A226MQ8NRNC"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFN" "Samsung Electro-Mechanics"
+			(property "MFN" "Samsung Electro-Mechanics "
 				(at 0 -24.13 0)
 				(effects
 					(font
@@ -270,7 +261,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_22uF_X5R_0603_0_1"
+			(property "Extra Values" "25V X5R 20% 0805"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "C_22uF_X5R_0805_0_1"
 				(polyline
 					(pts
 						(xy -0.51 -2.03) (xy -0.51 2.03)
@@ -320,7 +320,7 @@
 					)
 				)
 			)
-			(symbol "C_22uF_X5R_0603_1_1"
+			(symbol "C_22uF_X5R_0805_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1365,10 +1365,10 @@
 		)
 	)
 	(junction
-		(at 198.12 63.5)
+		(at 201.93 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ec69ef5-f7f6-46d2-a78e-2648173e76f8")
+		(uuid "0ef4ec8c-3bfe-4603-a434-dbb5cf3cbb2f")
 	)
 	(junction
 		(at 104.14 55.88)
@@ -1414,23 +1414,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 63.5) (xy 198.12 63.5)
+			(xy 199.39 63.5) (xy 201.93 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "124981fc-3e06-4545-97a7-5db8c770feea")
-	)
-	(wire
-		(pts
-			(xy 198.12 63.5) (xy 218.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17bc9e9f-5392-4a48-aed0-9f783ed32c60")
 	)
 	(wire
 		(pts
@@ -1614,7 +1604,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 63.5) (xy 177.8 63.5)
+			(xy 175.26 63.5) (xy 184.15 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1654,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 198.12 76.2)
+			(xy 201.93 78.74) (xy 201.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1684,13 +1674,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 63.5) (xy 198.12 66.04)
+			(xy 201.93 63.5) (xy 201.93 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eed4b8d5-a50f-47f2-bb1d-4f02a23cde52")
+	)
+	(wire
+		(pts
+			(xy 201.93 63.5) (xy 218.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef135afc-e683-44f0-861f-3fd4da1f94a9")
 	)
 	(wire
 		(pts
@@ -7484,6 +7484,17 @@
 		)
 		(uuid "e8cde86a-2140-4b93-92d6-2953d2e5701f")
 	)
+	(label "SW_OUT"
+		(at 175.26 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb17c621-4b2d-453e-b684-53d880f3840c")
+	)
 	(hierarchical_label "DIM"
 		(shape input)
 		(at 76.2 78.74 180)
@@ -7530,7 +7541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c998ff7-9089-4c08-869c-f10ea4463e55")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR015"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -7580,15 +7591,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR15")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR24")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR6")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7719,7 +7730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38fc0817-25f9-4de6-8723-c0a9aea317ab")
-		(property "Reference" "#PWR19"
+		(property "Reference" "#PWR019"
 			(at 154.94 110.49 0)
 			(effects
 				(font
@@ -7769,15 +7780,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR19")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR28")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR10")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7855,122 +7866,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:C_22uF_X5R_0603")
-		(at 104.14 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "470cf6b5-1058-4d5e-9bf9-a19eea7921a6")
-		(property "Reference" "C4"
-			(at 107.95 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 107.95 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:C_0603_1608Metric"
-			(at 113.03 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 109.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C59461"
-			(at 120.65 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "6.3V X5R 20% 0603"
-			(at 107.95 66.0399 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "MPN" "CL10A226MQ8NRNC"
-			(at 124.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "Samsung Electro-Mechanics"
-			(at 128.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aee8caba-bb71-484a-814a-26d77c819532")
-		)
-		(pin "1"
-			(uuid "7f1a2940-98ce-4f18-b041-4bda9f839b08")
-		)
-		(instances
-			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "C4")
-					(unit 1)
-				)
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 134.62 104.14 0)
 		(unit 1)
@@ -7980,7 +7875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "665edabd-d700-494b-8df9-776dc5ad45af")
-		(property "Reference" "#PWR17"
+		(property "Reference" "#PWR017"
 			(at 134.62 110.49 0)
 			(effects
 				(font
@@ -8030,15 +7925,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR17")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR26")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR8")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8162,7 +8057,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:L_4u7_5A_SWPA6045S4R7MT")
-		(at 185.42 63.5 0)
+		(at 191.77 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8171,7 +8066,7 @@
 		(fields_autoplaced yes)
 		(uuid "733502bc-34b0-40ef-b734-dff8eb12f134")
 		(property "Reference" "L2"
-			(at 185.42 54.61 0)
+			(at 191.77 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8074,7 @@
 			)
 		)
 		(property "Value" "4u7H"
-			(at 185.42 57.15 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8083,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:L_Sunlord_SWPA6045S"
-			(at 185.42 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8092,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_4-7uH-20_C78804.html"
-			(at 185.42 78.74 0)
+			(at 191.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8101,7 @@
 			)
 		)
 		(property "Description" "3.3A 4.7uH ±20% 5.5A SMD,6x6mm Power Inductors ROHS"
-			(at 185.42 71.12 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +8110,7 @@
 			)
 		)
 		(property "LCSC Part" "C78804"
-			(at 185.42 82.55 0)
+			(at 191.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +8119,7 @@
 			)
 		)
 		(property "MPN" "SWPA6045S4R7MT"
-			(at 185.42 67.31 0)
+			(at 191.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8128,7 @@
 			)
 		)
 		(property "MFN" "Sunlord"
-			(at 185.42 86.36 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +8137,7 @@
 			)
 		)
 		(property "Extra Values" "5.5A 20% 3.3A 26mOhm 6x6"
-			(at 185.42 59.69 0)
+			(at 191.77 59.69 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8283,7 +8178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "895c7e5e-f683-4f7a-a04c-503a834a485e")
-		(property "Reference" "#PWR13"
+		(property "Reference" "#PWR013"
 			(at 76.2 57.15 0)
 			(effects
 				(font
@@ -8333,15 +8228,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR13")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR22")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR4")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8349,7 +8244,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:C_1uF_X7R_0805")
-		(at 198.12 71.12 90)
+		(at 201.93 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8358,7 +8253,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eb891d0-478c-4ac6-abb0-c75efa592fdd")
 		(property "Reference" "C13"
-			(at 201.93 69.2149 90)
+			(at 205.74 69.2149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,7 +8262,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 201.93 71.755 90)
+			(at 205.74 71.755 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,33 +8272,6 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 210.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.html"
-			(at 207.01 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 203.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C28323"
 			(at 214.63 71.12 0)
 			(effects
 				(font
@@ -8412,16 +8280,25 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V X7R 10% 0805"
-			(at 201.93 73.66 90)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.html"
+			(at 210.82 71.12 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
+		(property "Description" "50V 1uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 207.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C28323"
 			(at 218.44 71.12 0)
 			(effects
 				(font
@@ -8430,8 +8307,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Samsung Electro-Mechanics"
+		(property "Extra Values" "50V X7R 10% 0805"
+			(at 205.74 73.66 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 226.06 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b61907f-5b4c-40a3-93d3-34b4291b237a")
-		(property "Reference" "#PWR18"
+		(property "Reference" "#PWR018"
 			(at 144.78 110.49 0)
 			(effects
 				(font
@@ -8522,15 +8417,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR18")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR27")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR9")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8680,7 +8575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a29c67a8-371d-40c2-a0a1-5098d4a5a917")
-		(property "Reference" "#PWR21"
+		(property "Reference" "#PWR021"
 			(at 218.44 120.65 0)
 			(effects
 				(font
@@ -8730,15 +8625,131 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR21")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR30")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR12")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:C_22uF_X5R_0805")
+		(at 104.14 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5364505-867c-4bcd-99ea-7f4c1f3aa23f")
+		(property "Reference" "C1"
+			(at 107.95 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22u"
+			(at 107.95 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 109.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A226MAQNNNE_22uF-226-20-25V_C45783.html"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 22uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C45783"
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A226MAQNNNE"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics "
+			(at 128.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "25V X5R 20% 0805"
+			(at 107.95 66.0399 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "2b51bc24-93e8-44c4-9358-11c791a9ac18")
+		)
+		(pin "1"
+			(uuid "94b1c620-c890-43c3-bbc0-43a36fe23797")
+		)
+		(instances
+			(project ""
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8746,7 +8757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 78.74 0)
+		(at 201.93 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8754,8 +8765,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2517568-87a3-41e3-aa27-eb73eaff04ca")
-		(property "Reference" "#PWR20"
-			(at 198.12 85.09 0)
+		(property "Reference" "#PWR020"
+			(at 201.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 83.82 0)
+			(at 201.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +8783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 78.74 0)
+			(at 201.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8781,7 +8792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 78.74 0)
+			(at 201.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +8801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 78.74 0)
+			(at 201.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,15 +8815,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR20")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR29")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR11")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8828,7 +8839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e137f319-95fe-44e4-a80a-50f6054f23a5")
-		(property "Reference" "#PWR16"
+		(property "Reference" "#PWR016"
 			(at 104.14 123.19 0)
 			(effects
 				(font
@@ -8878,15 +8889,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR16")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR25")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR7")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8902,7 +8913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d1dca6-36d8-4a3e-a95d-d4779b04838e")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR014"
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -8952,15 +8963,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR14")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR23")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR5")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
