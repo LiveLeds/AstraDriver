@@ -1641,10 +1641,22 @@
 		)
 	)
 	(junction
+		(at 88.9 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "023cdf95-6865-4d60-bc80-3dfed06d9a99")
+	)
+	(junction
 		(at 106.68 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d27253f-a7c5-4b29-8050-873ec8b49bfc")
+	)
+	(junction
+		(at 88.9 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dac5899-63bb-4710-9831-a173b1d6eadf")
 	)
 	(junction
 		(at 106.68 134.62)
@@ -1657,6 +1669,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35ab1ed0-7fea-4c61-abfc-b7a53950d7b7")
+	)
+	(junction
+		(at 106.68 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e07c264-268a-4050-9178-a0b91ce87758")
 	)
 	(junction
 		(at 193.04 157.48)
@@ -1677,46 +1695,34 @@
 		(uuid "8767d50b-1e36-4f93-8476-297a82a2d00b")
 	)
 	(junction
-		(at 96.52 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "974f9997-0776-4317-8497-00c48682c122")
-	)
-	(junction
 		(at 193.04 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b3053ed-be04-4fbd-93d6-23ccc73368fe")
 	)
 	(junction
-		(at 96.52 73.66)
+		(at 106.68 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d81869c-64c0-4ca8-bac6-8a391f18fc49")
+		(uuid "abd6667d-dcb3-4656-82f2-bb2aee64f638")
 	)
 	(junction
-		(at 78.74 45.72)
+		(at 88.9 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a16b2e7d-7694-4ca9-9eef-aaed7fdc75a5")
+		(uuid "b61bd66a-93d2-45aa-8d5f-36efa9f54adc")
 	)
 	(junction
-		(at 96.52 58.42)
+		(at 106.68 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9f62263-ac27-4f1b-b3e4-ff199a2954b0")
+		(uuid "bd0d1979-e903-4054-b49a-179215f1d541")
 	)
 	(junction
 		(at 193.04 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be953c53-60c5-4220-ab77-026a40c6b195")
-	)
-	(junction
-		(at 78.74 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c45ef935-b68b-452c-8ee8-9dd7adeea941")
 	)
 	(junction
 		(at 193.04 142.24)
@@ -1729,12 +1735,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d717c1e6-d661-46b6-b13c-da85404afb19")
-	)
-	(junction
-		(at 78.74 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea4da2b7-6efb-4043-bc7f-dc92c6fc7a96")
 	)
 	(junction
 		(at 106.68 121.92)
@@ -1767,16 +1767,6 @@
 			(type default)
 		)
 		(uuid "0109bb66-3582-4678-8e2d-3a43589439c9")
-	)
-	(wire
-		(pts
-			(xy 96.52 58.42) (xy 106.68 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0131a5f0-cf54-49c1-9aef-6009010426fc")
 	)
 	(wire
 		(pts
@@ -1850,16 +1840,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 172.72 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11171a53-03b1-4e73-b5dd-2e8fc0798b51")
-	)
-	(wire
-		(pts
 			(xy 76.2 104.14) (xy 76.2 121.92)
 		)
 		(stroke
@@ -1900,16 +1880,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 152.4) (xy 172.72 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6ebf5e-8589-4ed4-98f6-d0192a626fd2")
-	)
-	(wire
-		(pts
 			(xy 193.04 111.76) (xy 193.04 114.3)
 		)
 		(stroke
@@ -1926,7 +1896,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1f54470a-4eba-4328-ac5c-2b3a42a611c3")
+		(uuid "20498d1c-b2ba-4638-92d9-dcfa370de1b0")
+	)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 88.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fa6fbf-edef-4e06-83b4-491514902f1a")
 	)
 	(wire
 		(pts
@@ -1940,16 +1920,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 96.52) (xy 172.72 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "220936e1-f37f-4f15-a735-0712a410a34d")
-	)
-	(wire
-		(pts
 			(xy 213.36 86.36) (xy 213.36 91.44)
 		)
 		(stroke
@@ -1960,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 45.72) (xy 96.52 43.18)
+			(xy 106.68 45.72) (xy 106.68 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1990,6 +1960,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a59d9b5-de88-4379-96eb-c952e8b5c57f")
+	)
+	(wire
+		(pts
 			(xy 172.72 86.36) (xy 193.04 86.36)
 		)
 		(stroke
@@ -2000,17 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 147.32) (xy 172.72 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d86b0ef-e98d-4c98-818b-c2d4494f238a")
-	)
-	(wire
-		(pts
-			(xy 106.68 45.72) (xy 106.68 43.18)
+			(xy 119.38 45.72) (xy 119.38 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 55.88) (xy 96.52 58.42)
+			(xy 106.68 55.88) (xy 106.68 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2100,17 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 45.72) (xy 106.68 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a1877a4-4b02-4c29-ac61-204406e71daf")
-	)
-	(wire
-		(pts
-			(xy 106.68 73.66) (xy 106.68 76.2)
+			(xy 119.38 73.66) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2120,13 +2080,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 96.52 73.66)
+			(xy 167.64 124.46) (xy 172.72 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c143b66-fb6d-4efb-a417-6339c94231ec")
+		(uuid "4ada94b7-60f7-4769-825e-8c7ff6a94243")
 	)
 	(wire
 		(pts
@@ -2140,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 88.9) (xy 71.12 88.9)
+			(xy 55.88 88.9) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2180,23 +2140,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 45.72) (xy 96.52 45.72)
+			(xy 106.68 73.66) (xy 119.38 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c10939b-b6f4-4bb3-8f3e-28a4d9c1e557")
-	)
-	(wire
-		(pts
-			(xy 66.04 58.42) (xy 78.74 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c72bef6-789b-4659-b54e-977541760443")
+		(uuid "569a6e42-3837-4bcf-87f4-90209436b4f9")
 	)
 	(wire
 		(pts
@@ -2230,17 +2180,27 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 172.72 91.44)
+			(xy 106.68 45.72) (xy 119.38 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61faa304-c084-476c-93d5-ac80aeee56aa")
+		(uuid "618b5b04-0ee9-4ef3-bd52-39721b08177b")
 	)
 	(wire
 		(pts
-			(xy 106.68 58.42) (xy 106.68 55.88)
+			(xy 167.64 63.5) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6211a009-4a50-4195-90f7-9f0218df722d")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 119.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2300,6 +2260,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 147.32) (xy 172.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6182e8-2b01-4f22-b0c6-a982bd197603")
+	)
+	(wire
+		(pts
+			(xy 69.85 58.42) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da9e1e0-0d97-4a65-a2c9-5163947ae55e")
+	)
+	(wire
+		(pts
 			(xy 55.88 78.74) (xy 60.96 78.74)
 		)
 		(stroke
@@ -2307,6 +2287,16 @@
 			(type default)
 		)
 		(uuid "6e55b629-dd0e-4e57-8767-b04a9cfe031e")
+	)
+	(wire
+		(pts
+			(xy 167.64 152.4) (xy 172.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73858c0e-373c-4be8-97d7-2065191e3142")
 	)
 	(wire
 		(pts
@@ -2320,13 +2310,43 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 63.5) (xy 172.72 63.5)
+			(xy 88.9 45.72) (xy 106.68 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d6828b2-7eb4-4c49-8b17-fcee1678ca4f")
+		(uuid "784de14a-bc73-417a-957a-4f45e23c1c02")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bc71b3-871e-403e-9317-0fae2ffff05a")
+	)
+	(wire
+		(pts
+			(xy 167.64 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9165fe-4160-41c8-bc07-74aab1befc5e")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e87f431-43ba-406c-abeb-ae121f334292")
 	)
 	(wire
 		(pts
@@ -2360,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 58.42) (xy 66.04 83.82)
+			(xy 69.85 58.42) (xy 69.85 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2370,23 +2390,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 96.52 73.66)
+			(xy 106.68 69.85) (xy 106.68 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "886c031d-dc3c-48aa-a257-ba120a2fc473")
-	)
-	(wire
-		(pts
-			(xy 96.52 73.66) (xy 106.68 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88c357b9-c247-4d70-b109-b549c90cc18d")
 	)
 	(wire
 		(pts
@@ -2510,6 +2520,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 73.66) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9889baf3-b428-4d0b-b3e1-dd9e4e0816ac")
+	)
+	(wire
+		(pts
 			(xy 193.04 55.88) (xy 193.04 58.42)
 		)
 		(stroke
@@ -2600,16 +2620,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 96.52 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b973c8f3-b5ef-478d-a679-9ece247b3706")
-	)
-	(wire
-		(pts
 			(xy 55.88 109.22) (xy 71.12 109.22)
 		)
 		(stroke
@@ -2640,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 45.72) (xy 78.74 45.72)
+			(xy 60.96 45.72) (xy 88.9 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2660,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 83.82) (xy 66.04 83.82)
+			(xy 55.88 83.82) (xy 69.85 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2700,6 +2710,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 96.52) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d025fd2e-e1d2-4fa2-9d43-df2118f0fbef")
+	)
+	(wire
+		(pts
 			(xy 172.72 58.42) (xy 193.04 58.42)
 		)
 		(stroke
@@ -2720,7 +2740,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 71.12) (xy 78.74 73.66)
+			(xy 88.9 57.15) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75123dc-abd2-4e29-85a7-5c553453977b")
+	)
+	(wire
+		(pts
+			(xy 88.9 71.12) (xy 88.9 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2750,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 78.74 73.66)
+			(xy 76.2 73.66) (xy 88.9 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2780,6 +2810,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 58.42) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb230f16-2e9e-4dfe-ac87-64f82b1f6f19")
+	)
+	(wire
+		(pts
 			(xy 193.04 127) (xy 193.04 129.54)
 		)
 		(stroke
@@ -2800,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 71.12 88.9)
+			(xy 76.2 73.66) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2837,16 +2877,6 @@
 			(type default)
 		)
 		(uuid "f7653f45-fbc1-4334-b714-d1cb75952b21")
-	)
-	(wire
-		(pts
-			(xy 167.64 124.46) (xy 172.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff872cad-6a16-4319-bfb2-4466f63ad0da")
 	)
 	(wire
 		(pts
@@ -2892,6 +2922,17 @@
 			(justify left bottom)
 		)
 		(uuid "07289191-687a-4d00-9cd9-4f0d8c7e9f7c")
+	)
+	(label "3V3_R"
+		(at 58.42 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f32e753-220a-432d-9d38-f0226f3fbac8")
 	)
 	(label "RSRV"
 		(at 99.06 147.32 0)
@@ -2959,7 +3000,7 @@
 		)
 		(uuid "5bdd0b0a-2605-46a7-bc9f-3709b4c8d55d")
 	)
-	(label "CH1_LED+"
+	(label "CH1_LED-"
 		(at 175.26 142.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2981,7 +3022,7 @@
 		)
 		(uuid "70677a5f-0d59-4888-ac0f-c4c7ef5591c2")
 	)
-	(label "CH1_LED-"
+	(label "CH1_LED+"
 		(at 175.26 157.48 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2992,7 +3033,7 @@
 		)
 		(uuid "b59ef993-987d-458a-99bc-76ffa6d1ea94")
 	)
-	(label "CH3_LED+"
+	(label "CH3_LED-"
 		(at 175.26 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3025,7 +3066,7 @@
 		)
 		(uuid "d4e5d201-7895-4e0c-bfd7-9f9696d56783")
 	)
-	(label "CH4_LED+"
+	(label "CH4_LED-"
 		(at 175.26 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3047,7 +3088,7 @@
 		)
 		(uuid "ea2acf6e-a7bb-480b-81aa-bf530b767128")
 	)
-	(label "CH2_LED+"
+	(label "CH2_LED-"
 		(at 175.26 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3460,7 +3501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 38.1 0)
+		(at 254 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3469,7 +3510,7 @@
 		(fields_autoplaced yes)
 		(uuid "212bace3-e9a0-4045-b036-0eab77f8dedf")
 		(property "Reference" "#PWR040"
-			(at 254 44.45 0)
+			(at 254 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 43.18 0)
+			(at 254 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 38.1 0)
+			(at 254 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 38.1 0)
+			(at 254 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 38.1 0)
+			(at 254 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3675,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 78.74 71.12 0)
+		(at 88.9 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3643,7 +3684,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b0fab60-0280-4cd9-8020-adef1952b64d")
 		(property "Reference" "TP3"
-			(at 81.28 65.3076 0)
+			(at 91.44 65.3076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3693,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 78.74 81.28 0)
+			(at 88.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3702,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 78.74 88.9 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +3711,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 78.74 85.09 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3720,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 78.74 92.71 0)
+			(at 88.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3729,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 78.74 96.52 0)
+			(at 88.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3738,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 81.28 67.8476 0)
+			(at 91.44 67.8476 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3707,7 +3748,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 78.74 104.14 0)
+			(at 88.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3757,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 78.74 100.33 0)
+			(at 88.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3883,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 106.68 43.18 0)
+		(at 119.38 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3851,7 +3892,7 @@
 		(fields_autoplaced yes)
 		(uuid "449640b2-0303-4c82-80cd-0237e676e168")
 		(property "Reference" "#PWR01"
-			(at 106.68 46.99 0)
+			(at 119.38 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3901,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 106.68 38.1 0)
+			(at 119.38 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 43.18 0)
+			(at 119.38 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 43.18 0)
+			(at 119.38 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,7 +3927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 106.68 43.18 0)
+			(at 119.38 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3949,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 106.68 55.88 0)
+		(at 119.38 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3917,7 +3958,7 @@
 		(fields_autoplaced yes)
 		(uuid "45ddebc3-3eb5-4f8c-ad3a-8420aea97c44")
 		(property "Reference" "#PWR02"
-			(at 106.68 59.69 0)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +3967,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 106.68 50.8 0)
+			(at 119.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 55.88 0)
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 55.88 0)
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 106.68 55.88 0)
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4119,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 96.52 43.18 0)
+		(at 106.68 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4087,7 +4128,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ffb6bc7-7d6c-4dcc-92d6-7ece59aaa1c7")
 		(property "Reference" "#FLG01"
-			(at 96.52 41.275 0)
+			(at 106.68 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4137,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 96.52 38.1 0)
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 43.18 0)
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4154,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 43.18 0)
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4163,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 96.52 43.18 0)
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,6 +4178,111 @@
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
+		(at 77.47 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54f72485-f513-4286-a918-cc8408cd4820")
+		(property "Reference" "R10"
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 77.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "125mW Thick Film Resistors 150V ±800ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17477"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "150V 1% 0805"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f427bf-ffc2-445a-af57-1f1cd7c594a4")
+		)
+		(pin "2"
+			(uuid "43187c45-3447-412b-b3d4-48b094403f66")
+		)
+		(instances
+			(project "AstraDriver"
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4248,7 +4394,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 76.2 0)
+		(at 119.38 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4257,7 +4403,7 @@
 		(fields_autoplaced yes)
 		(uuid "575c384a-1a39-477e-84d6-0f9db68962ad")
 		(property "Reference" "#PWR03"
-			(at 106.68 82.55 0)
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 81.28 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 76.2 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 76.2 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 76.2 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4731,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:AstraControl_Ground_Ring")
-		(at 254 30.48 0)
+		(at 254 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4594,7 +4740,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c1bf269-690f-4e72-a847-f4ffd7ec1486")
 		(property "Reference" "RING1"
-			(at 265.43 30.4799 0)
+			(at 265.43 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4749,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 254 24.13 0)
+			(at 254 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4757,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:AstraControl_Ground_Ring"
-			(at 254 24.13 0)
+			(at 254 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 24.13 0)
+			(at 254 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +4775,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 24.13 0)
+			(at 254 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4797,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 96.52 71.12 0)
+		(at 106.68 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4660,7 +4806,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d5ad641-c15e-437b-917f-d77d50de19d7")
 		(property "Reference" "#FLG03"
-			(at 96.52 69.215 0)
+			(at 106.68 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4815,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 96.52 66.04 0)
+			(at 106.68 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 71.12 0)
+			(at 106.68 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 71.12 0)
+			(at 106.68 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4841,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 96.52 71.12 0)
+			(at 106.68 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4863,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 96.52 55.88 0)
+		(at 106.68 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4726,7 +4872,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ed3a9c6-18eb-4364-b397-00dfc12d490b")
 		(property "Reference" "#FLG02"
-			(at 96.52 53.975 0)
+			(at 106.68 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4881,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 96.52 50.8 0)
+			(at 106.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 55.88 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 55.88 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4907,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 96.52 55.88 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5246,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 78.74 58.42 0)
+		(at 88.9 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5109,7 +5255,7 @@
 		(fields_autoplaced yes)
 		(uuid "83a93573-f00d-4c69-84a8-6b8cfef76932")
 		(property "Reference" "TP2"
-			(at 81.28 52.6076 0)
+			(at 91.44 51.3376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5264,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 78.74 68.58 0)
+			(at 88.9 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5273,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 78.74 76.2 0)
+			(at 88.9 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5282,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 78.74 72.39 0)
+			(at 88.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5291,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 78.74 80.01 0)
+			(at 88.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5300,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 78.74 83.82 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +5309,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 81.28 55.1476 0)
+			(at 91.44 53.8776 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5173,7 +5319,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 78.74 91.44 0)
+			(at 88.9 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5328,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 78.74 87.63 0)
+			(at 88.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5664,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 78.74 45.72 0)
+		(at 88.9 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5527,7 +5673,7 @@
 		(fields_autoplaced yes)
 		(uuid "9952bb35-5f5a-402d-a8c5-1fb2b08ce733")
 		(property "Reference" "TP1"
-			(at 81.28 39.9076 0)
+			(at 91.44 38.6376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +5682,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 78.74 55.88 0)
+			(at 88.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5691,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 78.74 63.5 0)
+			(at 88.9 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5700,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 78.74 59.69 0)
+			(at 88.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5709,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 78.74 67.31 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5718,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 78.74 71.12 0)
+			(at 88.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +5727,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 81.28 42.4476 0)
+			(at 91.44 41.1776 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5591,7 +5737,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 78.74 78.74 0)
+			(at 88.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5746,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 78.74 74.93 0)
+			(at 88.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,7 +6654,7 @@
 			)
 		)
 		(pin "LED+" output
-			(at 167.64 119.38 0)
+			(at 167.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +6664,7 @@
 			(uuid "5cea48b5-03c3-405e-87aa-d1617ac02e3d")
 		)
 		(pin "LED-" output
-			(at 167.64 124.46 0)
+			(at 167.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6722,7 @@
 			)
 		)
 		(pin "LED+" output
-			(at 167.64 91.44 0)
+			(at 167.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +6732,7 @@
 			(uuid "2a2d97f5-7f2f-4ea3-850e-2b8a0f17ed5e")
 		)
 		(pin "LED-" output
-			(at 167.64 96.52 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6644,7 +6790,7 @@
 			)
 		)
 		(pin "LED+" output
-			(at 167.64 147.32 0)
+			(at 167.64 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,7 +6800,7 @@
 			(uuid "0a7545af-6da4-4e2b-ba9c-210a27c828d4")
 		)
 		(pin "LED-" output
-			(at 167.64 152.4 0)
+			(at 167.64 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6858,7 @@
 			)
 		)
 		(pin "LED+" output
-			(at 167.64 63.5 0)
+			(at 167.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6868,7 @@
 			(uuid "b025b499-1c79-49b7-8f6b-527f17eb52c1")
 		)
 		(pin "LED-" output
-			(at 167.64 68.58 0)
+			(at 167.64 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
