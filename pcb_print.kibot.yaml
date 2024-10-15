@@ -122,7 +122,7 @@ outputs:
       colored_pads: false
       colored_vias: false
       pages:
-        - title: "L1 SIG / PWR (FAB)"
+        - title: "L1 SIG / GND (FAB)"
           scaling: 1.3
           sketch_pads_on_fab_layers: true
           colored_holes: true
@@ -138,7 +138,7 @@ outputs:
             - layer: Board.Center
               color: "@BACKGROUND_COLOR@"
               use_for_center: false
-        - title: "L1 SIG / PWR"
+        - title: "L1 SIG / GND"
           scaling: 1.3
           colored_holes: true
           sheet_reference_color: "@FOREGROUND_COLOR@"
@@ -179,7 +179,7 @@ outputs:
             - layer: Board.Center
               color: "@BACKGROUND_COLOR@"
               use_for_center: false
-        - title: "L3 GND (Front FAB)"
+        - title: "L3 5V (Front FAB)"
           scaling: 1.3
           sketch_pads_on_fab_layers: true
           colored_holes: true
@@ -195,7 +195,7 @@ outputs:
             - layer: Board.Center
               color: "@BACKGROUND_COLOR@"
               use_for_center: false
-        - title: "L3 GND"
+        - title: "L3 5V"
           scaling: 1.3
           colored_holes: true
           sheet_reference_color: "@FOREGROUND_COLOR@"
@@ -208,7 +208,7 @@ outputs:
             - layer: Board.Center
               color: "@BACKGROUND_COLOR@"
               use_for_center: false
-        - title: "L4 SIG / PWR (Front FAB)"
+        - title: "L4 GND (Front FAB)"
           scaling: 1.3
           sketch_pads_on_fab_layers: true
           colored_holes: true
@@ -224,7 +224,7 @@ outputs:
             - layer: Board.Center
               color: "@BACKGROUND_COLOR@"
               use_for_center: false
-        - title: "L4 SIG / PWR"
+        - title: "L4 GND"
           scaling: 1.3
           colored_holes: true
           sheet_reference_color: "@FOREGROUND_COLOR@"
