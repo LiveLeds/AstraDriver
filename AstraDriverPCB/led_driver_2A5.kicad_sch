@@ -7734,7 +7734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c998ff7-9089-4c08-869c-f10ea4463e55")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR020"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -7784,15 +7784,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7808,7 +7808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b8b8094-9c35-4a89-9e21-a86289321a89")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 107.95 107.3149 90)
 			(effects
 				(font
@@ -7899,15 +7899,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "C5")
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7923,7 +7923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38fc0817-25f9-4de6-8723-c0a9aea317ab")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR024"
 			(at 154.94 110.49 0)
 			(effects
 				(font
@@ -7973,15 +7973,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8068,7 +8068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "665edabd-d700-494b-8df9-776dc5ad45af")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR022"
 			(at 134.62 110.49 0)
 			(effects
 				(font
@@ -8118,15 +8118,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR017")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8142,7 +8142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a00028-f7f5-4b45-9ca8-ada113f24b6c")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 220.98 104.1399 90)
 			(effects
 				(font
@@ -8234,15 +8234,15 @@
 		(instances
 			(project ""
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
 					(reference "R8")
 					(unit 1)
 				)
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
+					(reference "R9")
+					(unit 1)
+				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8371,7 +8371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "768f11cd-37ad-409d-9d3c-0a25e59743e6")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR019"
 			(at 91.44 77.47 0)
 			(effects
 				(font
@@ -8421,15 +8421,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR044")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR045")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR043")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8445,7 +8445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "895c7e5e-f683-4f7a-a04c-503a834a485e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 76.2 57.15 0)
 			(effects
 				(font
@@ -8495,15 +8495,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8519,7 +8519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eb891d0-478c-4ac6-abb0-c75efa592fdd")
-		(property "Reference" "C14"
+		(property "Reference" "C10"
 			(at 205.74 69.2149 90)
 			(effects
 				(font
@@ -8610,15 +8610,15 @@
 		(instances
 			(project ""
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "C14")
+					(reference "C10")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "C13")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8634,7 +8634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b61907f-5b4c-40a3-93d3-34b4291b237a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR023"
 			(at 144.78 110.49 0)
 			(effects
 				(font
@@ -8684,15 +8684,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR018")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8842,7 +8842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a29c67a8-371d-40c2-a0a1-5098d4a5a917")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR026"
 			(at 218.44 120.65 0)
 			(effects
 				(font
@@ -8892,15 +8892,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR021")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8916,7 +8916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5364505-867c-4bcd-99ea-7f4c1f3aa23f")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 107.95 60.9599 90)
 			(effects
 				(font
@@ -9008,15 +9008,15 @@
 		(instances
 			(project ""
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9032,7 +9032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2517568-87a3-41e3-aa27-eb73eaff04ca")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR025"
 			(at 201.93 85.09 0)
 			(effects
 				(font
@@ -9082,15 +9082,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR020")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR029")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9106,7 +9106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e137f319-95fe-44e4-a80a-50f6054f23a5")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR021"
 			(at 104.14 123.19 0)
 			(effects
 				(font
@@ -9156,15 +9156,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR016")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9180,7 +9180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d1dca6-36d8-4a3e-a95d-d4779b04838e")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -9230,15 +9230,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9254,7 +9254,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f81a6e85-fc35-4f86-98ef-c9b996806a5e")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 95.25 60.9599 90)
 			(effects
 				(font
@@ -9328,15 +9328,15 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "C16")
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "C17")
+					(reference "C11")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e6bfebdf-aa19-4866-bf09-731e468084aa"
-					(reference "C12")
+					(reference "C3")
 					(unit 1)
 				)
 			)
