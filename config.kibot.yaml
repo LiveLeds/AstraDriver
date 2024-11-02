@@ -1,7 +1,3 @@
-# ATTENTION! THIS ISN'T A FULLY FUNCTIONAL EXAMPLE.
-# You should take portions of this example and edit the options to make
-# them suitable for your use.
-# This file is useful to know all the available options.
 kibot:
   version: 1
 
@@ -27,14 +23,6 @@ variants:
     pre_transform: _rot_footprint_jlcpcb
 
 outputs:
-  - name: "Step"
-    comment: "Exports the PCB as a 3D model."
-    type: "step"
-    dir: "Step"
-    options:
-      download: false
-      download_lcsc: False
-      metric_units: true
   - name: "report"
     comment: "Generates a report about the design."
     type: "report"

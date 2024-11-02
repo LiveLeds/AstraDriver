@@ -105,13 +105,13 @@ jobs:
           ls -l template
       - name: Run Kibot
         run: |
-            mkdir -p /root/.ssh/ && touch /root/.ssh/known_hosts
-            ssh-keygen -R github.com
-            ssh-keyscan github.com >> /root/.ssh/known_hosts
-            echo "github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" >> /root/.ssh/known_hosts
-            eval $(ssh-agent)
-            echo "${{ secrets.SSH_PRIVATE_KEY }}" | tr -d '\r' | ssh-add - > /dev/null
-            kibot -vvv -d output -c config.kibot.yaml -e AstraDriverPCB/AstraDriver.kicad_sch -b AstraDriverPCB/AstraDriver.kicad_pcb
+          mkdir -p /root/.ssh/ && touch /root/.ssh/known_hosts
+          ssh-keygen -R github.com
+          ssh-keyscan github.com >> /root/.ssh/known_hosts
+          echo "github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" >> /root/.ssh/known_hosts
+          eval $(ssh-agent)
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" | tr -d '\r' | ssh-add - > /dev/null
+          kibot -vvv -d output -c config.kibot.yaml -e AstraDriverPCB/AstraDriver.kicad_sch -b AstraDriverPCB/AstraDriver.kicad_pcb
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -177,6 +177,31 @@ jobs:
         with:
           name: Render_Top
           path: output
+
+  Step:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: 3d_step_file.kibot.yaml
+          dir: output
+          schema: "AstraDriverPCB/AstraDriver.kicad_sch"
+          board: "AstraDriverPCB/AstraDriver.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Step
+          path: output
+
   Render_3D_Bottom:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
@@ -203,7 +228,14 @@ jobs:
   Build_Jekyll:
     runs-on: ubuntu-latest
     needs:
-      [Preflight, Render_3D_Top, Render_3D_Bottom, Render_3D_Top_Angled, Report, PCBPrint]
+      [
+        Preflight,
+        Render_3D_Top,
+        Render_3D_Bottom,
+        Render_3D_Top_Angled,
+        Report,
+        PCBPrint,
+      ]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -230,6 +262,7 @@ jobs:
           mkdir KiRiLight
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
+          mv output/Step/step/AstraDriver-report.txt ./AstraDriver-report.md
           mv output/Report/report/AstraDriver-report.txt ./AstraDriver-report.md
           mv output/Render_Top/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_top.png
           mv output/Render_Bottom/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_bottom.png
