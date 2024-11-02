@@ -35,9 +35,9 @@ outputs:
 
         - name: "light4"
           energy: 150
-          pos_x: 0
+          pos_x: -size*15
           pos_y: 0
-          pos_z: size*50
+          pos_z: size*20
           type: "AREA"
       pcb3d:
         download: false
