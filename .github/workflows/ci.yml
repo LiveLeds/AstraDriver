@@ -235,6 +235,7 @@ jobs:
         Render_3D_Top_Angled,
         Report,
         PCBPrint,
+        Step,
       ]
     steps:
       - name: Checkout

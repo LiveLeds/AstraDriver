@@ -27,9 +27,9 @@ outputs:
           type: "AREA"
 
         - name: "light3"
-          energy: 8
-          pos_x: -size*5
-          pos_y: 0
+          energy: 20
+          pos_x: size*5
+          pos_y: -size*5
           pos_z: size*14
           type: "AREA"
 
