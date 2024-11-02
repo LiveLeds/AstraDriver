@@ -255,6 +255,7 @@ jobs:
           ls -l output
           ls -l output/Render_Top_Angled
           ls -l output/Report
+          ls -l output/Step
           mkdir export
           mkdir html
           mkdir images
@@ -263,7 +264,7 @@ jobs:
           mkdir KiRiLight
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
-          mv output/Step/AstraDriver-3D.step ./AstraDriver-3D.step
+          mv output/Step/Step/AstraDriver-3D.step ./AstraDriver-3D.step
           mv output/Report/report/AstraDriver-report.txt ./AstraDriver-report.md
           mv output/Render_Top/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_top.png
           mv output/Render_Bottom/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_bottom.png
