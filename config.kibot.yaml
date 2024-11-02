@@ -27,14 +27,14 @@ variants:
     pre_transform: _rot_footprint_jlcpcb
 
 outputs:
-  # - name: "Step"
-  #   comment: "Exports the PCB as a 3D model."
-  #   type: "step"
-  #   dir: "Step"
-  #   options:
-  #     download: false
-  #     download_lcsc: False
-  #     metric_units: true
+  - name: "Step"
+    comment: "Exports the PCB as a 3D model."
+    type: "step"
+    dir: "Step"
+    options:
+      download: false
+      download_lcsc: False
+      metric_units: true
   - name: "report"
     comment: "Generates a report about the design."
     type: "report"
