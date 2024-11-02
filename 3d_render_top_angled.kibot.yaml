@@ -34,7 +34,7 @@ outputs:
           type: "AREA"
 
         - name: "light4"
-          energy: 50
+          energy: 150
           pos_x: 0
           pos_y: 0
           pos_z: size*50
