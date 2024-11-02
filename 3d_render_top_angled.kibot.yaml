@@ -34,10 +34,10 @@ outputs:
           type: "AREA"
 
         - name: "light4"
-          energy: 16
+          energy: 50
           pos_x: 0
           pos_y: 0
-          pos_z: size*15
+          pos_z: size*50
           type: "AREA"
       pcb3d:
         download: false
