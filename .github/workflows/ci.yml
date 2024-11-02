@@ -263,7 +263,7 @@ jobs:
           mkdir KiRiLight
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
-          mv output/Step/step/AstraDriver-report.txt ./AstraDriver-report.md
+          mv output/Step/AstraDriver-3D.step ./AstraDriver-3D.step
           mv output/Report/report/AstraDriver-report.txt ./AstraDriver-report.md
           mv output/Render_Top/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_top.png
           mv output/Render_Bottom/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_bottom.png
@@ -295,11 +295,12 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      - name: Move KiRi files directly to site
+      - name: Move files directly to site
         run: |
           sudo chown -R $USER:$USER ./_site/
           cp -r ./KiRiDark ./_site/
           cp -r ./KiRiLight ./_site/
+          cp -r ./AstraDriver-3D.step ./_site/AstraDriver-3D.step
 
   Deploy_Jekyll:
     needs: Build_Jekyll

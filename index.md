@@ -30,6 +30,7 @@ data from a dedicated receiver.
   - [Assembly](#assembly)
     - [Dark](#dark-2)
     - [Light](#light-2)
+  - [3D Step](#3d-step)
   - [Downloads](#downloads)
     - [JLCPCB](#jlcpcb)
     - [Eurocircuits](#eurocircuits)
@@ -99,6 +100,11 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 #### Light
 
 - [PCB Light PDF]({{ "/documents/AstraDriver-pcb-light.pdf" | relative_url | append: cacheBust }})
+
+### 3D Step
+
+- [3D Step]({{ "/AstraDriver-3D.step" | relative_url | append: cacheBust }})
+
 
 ### Downloads
 
