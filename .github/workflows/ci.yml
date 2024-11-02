@@ -256,6 +256,7 @@ jobs:
           ls -l output/Render_Top_Angled
           ls -l output/Report
           ls -l output/Step
+          find .
           mkdir export
           mkdir html
           mkdir images
