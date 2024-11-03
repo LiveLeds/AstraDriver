@@ -13,37 +13,37 @@ outputs:
     options:
       light:
         - name: "light1"
-          energy: 30
+          energy: 15
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: size*10.0
           type: "AREA"
         - name: "light2"
-          energy: 70
+          energy: 30
           pos_x: 0.0
           pos_y: 0.0
           pos_z: size*30.0
           type: "SUN"
         - name: "light3"
-          energy: 20
+          energy: 10
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: size*10.0
           type: "SPOT"
         - name: "light4"
-          energy: 15
+          energy: 8
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: 0.0
           type: "AREA"
         - name: "light5"
-          energy: 15
+          energy: 8
           pos_x: 0.0
           pos_y: 0.0
           pos_z: 0.0
           type: "SUN"
         - name: "light6"
-          energy: 10
+          energy: 5
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: 0.0
