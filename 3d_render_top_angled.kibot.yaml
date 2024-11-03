@@ -16,7 +16,13 @@ outputs:
           energy: 30
           pos_x: -size*3.33
           pos_y: size*3.33
-          pos_z: size*10
+          pos_z: size*10.0
+          type: "AREA"
+        - name: "light2"
+          energy: 30
+          pos_x: size*3.33
+          pos_y: -size*3.33
+          pos_z: size*10.0
           type: "AREA"
 
         # - name: "light2"
