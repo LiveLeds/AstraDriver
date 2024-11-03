@@ -277,8 +277,8 @@ jobs:
           mv output/Report/Schematic/AstraDriver-schematic-mono.pdf documents/AstraDriver-schematic-mono.pdf
           mv output/PCBPrint/PCBPrintDark/AstraDriver-united-Dark.pdf documents/AstraDriver-pcb-dark.pdf
           mv output/PCBPrint/PCBPrintLight/AstraDriver-united-Light.pdf documents/AstraDriver-pcb-light.pdf
-          mv output/Report/KiRiDark ./
-          mv output/Report/KiRiLight ./
+          mv output/Report/KiRiDark ./ || true
+          mv output/Report/KiRiLight ./ || true
           mv output/Report/JLCPCB/AstraDriver-JLCPCB.zip export/AstraDriver-JLCPCB.zip
           mv output/Report/JLCPCB/BOM/AstraDriver_bom_jlc.csv export/AstraDriver_bom_jlc.csv
           mv output/Report/JLCPCB/PickAndPlace/AstraDriver_cpl_jlc.csv export/AstraDriver_cpl_jlc.csv
@@ -300,8 +300,8 @@ jobs:
       - name: Move files directly to site
         run: |
           sudo chown -R $USER:$USER ./_site/
-          cp -r ./KiRiDark ./_site/
-          cp -r ./KiRiLight ./_site/
+          cp -r ./KiRiDark ./_site/ || true
+          cp -r ./KiRiLight ./_site/ || true
           cp -r ./AstraDriver-3D.step ./_site/AstraDriver-3D.step
 
   Deploy_Jekyll:

@@ -19,11 +19,17 @@ outputs:
           pos_z: size*10.0
           type: "AREA"
         - name: "light2"
-          energy: 30
+          energy: 50
+          pos_x: 0.0
+          pos_y: 0.0
+          pos_z: size*30.0
+          type: "SUN"
+        - name: "light3"
+          energy: 20
           pos_x: 0.0
           pos_y: 0.0
           pos_z: size*10.0
-          type: "SUN"
+          type: "SPOT"
 
         # - name: "light2"
         #   energy: 15
