@@ -13,13 +13,13 @@ outputs:
     options:
       light:
         - name: "light1"
-          energy: 15
+          energy: 5
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: size*10.0
           type: "AREA"
         - name: "light2"
-          energy: 30
+          energy: 10
           pos_x: 0.0
           pos_y: 0.0
           pos_z: size*30.0
@@ -31,19 +31,19 @@ outputs:
           pos_z: size*10.0
           type: "SPOT"
         - name: "light4"
-          energy: 8
+          energy: 4
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: 0.0
           type: "AREA"
         - name: "light5"
-          energy: 8
+          energy: 4
           pos_x: 0.0
           pos_y: 0.0
           pos_z: 0.0
           type: "SUN"
         - name: "light6"
-          energy: 5
+          energy: 4
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: 0.0
@@ -52,12 +52,12 @@ outputs:
         download: false
         download_lcsc: false
       render_options:
-        auto_crop: true
+        auto_crop: false
         transparent_background: true
         samples: 100
         resolution_x: 2048
         resolution_y: 2048
-      auto_camera_z_axis_factor: 0.7
+      auto_camera_z_axis_factor: 0.5
       point_of_view:
         rotate_x: -15
         rotate_y: 25
