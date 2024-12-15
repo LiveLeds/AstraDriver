@@ -1,0 +1,23 @@
+(version 1)
+(rule samenet
+	(condition "A.Type == 'via' && A.Type == 'Zone' && A.NetName == B.NetName")
+	(constraint physical_clearance (min 0.2mm))
+)
+(rule "via_not_in_pad"
+	(condition "A.Type == 'via' && B.Type == 'pad'")
+	(constraint physical_hole_clearance (min 0.3mm))
+)
+(rule "Minimum silkscreen line width"
+	(severity warning)
+	(constraint assertion "A.Line_Width >= 0.16mm")
+	(condition "A.Layer == '?.Silkscreen' && A.Type != 'text' && A.Value != 'G***"))
+
+(rule "Pad to Silkscreen"
+	(constraint silk_clearance (min 0.17mm))
+	(layer outer)
+	(condition "A.Type == 'Pad' && (B.Layer == '?.Silkscreen')"))
+
+(rule "Vua to Silkscreen"
+	(constraint silk_clearance (min 0.18mm))
+	(layer outer)
+	(condition "A.Type == 'Via' && (B.Layer == '?.Silkscreen')"))

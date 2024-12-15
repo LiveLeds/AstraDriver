@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.7,
-          "height": 2.7,
-          "width": 2.7
+          "drill": 0.0,
+          "height": 2.65,
+          "width": 1.125
         },
         "silk_line_width": 0.16,
         "silk_text_italic": false,
@@ -192,6 +192,7 @@
         0.3,
         0.3493,
         0.5,
+        0.7,
         0.9,
         1.0
       ],
@@ -631,20 +632,24 @@
       "Block Diagram"
     ],
     [
-      "e6bfebdf-aa19-4866-bf09-731e468084aa",
-      "Channel 1 2.5A"
+      "02378fe8-1086-45ec-8926-c2e9ee784828",
+      "Channel 1 Blue and CY 2.5A"
     ],
     [
       "2917a49e-0b0c-4bc9-a147-180770b18779",
-      "Channel 2 2.5A"
+      "Channel 2 Blue and CY 2.5A"
     ],
     [
       "5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce",
-      "Channel 3 2.5A"
+      "Channel 3 Green 2.5A"
     ],
     [
       "fa547d88-44f2-44f0-9d14-59ceeb0f5768",
-      "Channel 4 2A"
+      "Channel 4 Red 2A"
+    ],
+    [
+      "e1c7a56f-5caa-4cff-9bf2-f03631e64f8e",
+      "Misc"
     ]
   ],
   "text_variables": {
