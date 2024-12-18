@@ -138,6 +138,7 @@ outputs:
     options:
       variant: rotated
       output: "%f_cpl_jlc.%x"
+      dnf_filter: _kibom_dnf_Config
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
@@ -216,7 +217,7 @@ outputs:
     options:
       color_theme: "Arcana"
       background_color: '#000000'
-      keep_generated: false
+      keep_generated: true
       max_commits: 3
       revision: 'HEAD'
       zones: 'global'
@@ -226,7 +227,7 @@ outputs:
     type: 'kiri'
     dir: 'KiRiLight'
     options:
-      keep_generated: false
+      keep_generated: true
       max_commits: 3
       revision: 'HEAD'
       zones: 'global'

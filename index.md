@@ -3,62 +3,99 @@ layout: home
 ---
 
 {% assign cacheBust = site.time | date:'?v=%s' %}
-![Image]({{ "/images/AstraDriver-3D_blender_top_angled.png" | relative_url | append: cacheBust }}){: width="400" }
+![Image]({{ "/images/AstraDriver-3D_blender_top_angled.png" | absolute_url | append: cacheBust }}){: width="400" }
 
 4 Channel LED Driver with PWM dimming input. LED2001PHR is the driver IC, 
 it can support up to 4A, 3V - 18V at 850KHz switching frequency.
+Test plugs for each input and output.
+Optimized for good dimming performance.
 
-[![CI](https://github.com/LiveLeds/AstraDriver/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraDriver/actions/workflows/ci.yml)
+[![CI](https://github.com/LiveLeds/AstraDriver/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraControl/actions/workflows/ci.yml)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/liveleds/AstraDriver?link=https%3A%2F%2Fgithub.com%2FLiveLeds%2FAstraDriver)
+
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
   - [Render Top Angled](#render-top-angled)
   - [Render Top](#render-top)
   - [Render Bottom](#render-bottom)
+  - [Schematic](#schematic)
+    - [Dark](#dark)
+    - [Monochromatic](#monochromatic)
+    - [Light](#light)
+  - [Assembly](#assembly)
+    - [Dark](#dark-1)
+    - [Light](#light-1)
+    - [Gerber viewer on tracespace.io](#gerber-viewer-on-tracespaceio)
   - [Interactive BOM](#interactive-bom)
   - [BOM](#bom)
   - [KiCad Revision Inspector (KiRI)](#kicad-revision-inspector-kiri)
-    - [Dark](#dark)
-    - [Light](#light)
-  - [Schematic](#schematic)
-    - [Dark](#dark-1)
-    - [Monochromatic](#monochromatic)
-    - [Light](#light-1)
-  - [Assembly](#assembly)
     - [Dark](#dark-2)
     - [Light](#light-2)
-  - [3D Step](#3d-step)
   - [Downloads](#downloads)
     - [JLCPCB](#jlcpcb)
     - [Eurocircuits](#eurocircuits)
+    - [3D Step](#3d-step)
 - [Report](#report)
     - [ERC](#erc)
     - [DRC](#drc)
+- [Know Issues](#know-issues)
 - [Credits](#credits)
 
 ### Render Top Angled
 
-![Image]({{ "/images/AstraDriver-3D_blender_top_angled.png" | relative_url | append: cacheBust }})
+![Image]({{ "/images/AstraDriver-3D_blender_top_angled.png" | absolute_url | append: cacheBust }})
 
 ### Render Top
 
-![Image]({{ "/images/AstraDriver-3D_blender_top.png" | relative_url | append: cacheBust }})
+![Image]({{ "/images/AstraDriver-3D_blender_top.png" | absolute_url | append: cacheBust }})
 
 ### Render Bottom
 
-![Image]({{ "/images/AstraDriver-3D_blender_bottom.png" | relative_url | append: cacheBust }})
+![Image]({{ "/images/AstraDriver-3D_blender_bottom.png" | absolute_url | append: cacheBust }})
+
+### Schematic
+
+#### Dark
+
+- [Schematic Dark PDF]({{ "/documents/AstraDriver-schematic-dark.pdf" | absolute_url | append: cacheBust }})
+
+#### Monochromatic
+
+- [Schematic Monochromatic PDF]({{ "/documents/AstraDriver-schematic-mono.pdf" | absolute_url | append: cacheBust }})
+
+#### Light
+
+- [Schematic Light PDF]({{ "/documents/AstraDriver-schematic-default.pdf" | absolute_url | append: cacheBust }})
+
+### Assembly
+
+#### Dark
+
+- [PCB Dark PDF]({{ "/documents/AstraDriver-pcb-dark.pdf" | absolute_url | append: cacheBust }})
+
+#### Light
+
+- [PCB Light PDF]({{ "/documents/AstraDriver-pcb-light.pdf" | absolute_url | append: cacheBust }})
+
+#### Gerber viewer on tracespace.io
+
+[https://tracespace.io/view/?boardUrl={{ "export/AstraDriver-JLCPCB.zip" | absolute_url | append: cacheBust }}](https://tracespace.io/view/?boardUrl={{ "export/AstraDriver-JLCPCB.zip" | absolute_url | append: cacheBust }})
 
 ### Interactive BOM
 
-Easily check component locations by hovering over a specific component.
+Check component locations by hovering over a specific component.
+The visual elements might not be precise enough for pcb review but can be very useful since it's possible to pan and zoom.
+Not all BOM columns are available here, for datasheet links see BOM below.
 
-[IBOM HTML]({{ "/export/AstraDriver-ibom.html" | relative_url | append: cacheBust }})
+[IBOM HTML]({{ "/export/AstraDriver-ibom.html" | absolute_url | append: cacheBust }})
 
 ### BOM
 
 All components with Values, References, Sheetpath and Links to the datasheet.
 
-[BOM HTML]({{ "/export/AstraDriver-bom.html" | relative_url | append: cacheBust }})
+[BOM HTML]({{ "/export/AstraDriver-bom.html" | absolute_url | append: cacheBust }})
 
 ### KiCad Revision Inspector (KiRI)
 
@@ -68,54 +105,29 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 
 #### Dark
 
-- [KiRi Dark]({{ "/KiRiDark/index.html" | relative_url | append: cacheBust }})
+- [KiRi Dark]({{ "/KiRiDark/index.html" | absolute_url | append: cacheBust }})
 
 #### Light
 
-- [KiRi Light]({{ "/KiRiLight/index.html" | relative_url | append: cacheBust }})
-
-### Schematic
-
-#### Dark
-
-- [Schematic Dark PDF]({{ "/documents/AstraDriver-schematic-dark.pdf" | relative_url | append: cacheBust }})
-
-#### Monochromatic
-
-- [Schematic Monochromatic PDF]({{ "/documents/AstraDriver-schematic-mono.pdf" | relative_url | append: cacheBust }})
-
-#### Light
-
-- [Schematic Light PDF]({{ "/documents/AstraDriver-schematic-default.pdf" | relative_url | append: cacheBust }})
-
-### Assembly
-
-#### Dark
-
-- [PCB Dark PDF]({{ "/documents/AstraDriver-pcb-dark.pdf" | relative_url | append: cacheBust }})
-
-#### Light
-
-- [PCB Light PDF]({{ "/documents/AstraDriver-pcb-light.pdf" | relative_url | append: cacheBust }})
-
-### 3D Step
-
-- [3D Step]({{ "/AstraDriver-3D.step" | relative_url | append: cacheBust }})
-
+- [KiRi Light]({{ "/KiRiLight/index.html" | absolute_url | append: cacheBust }})
 
 ### Downloads
 
 #### JLCPCB
 
-- [JLCPCB Zip]({{ "export/AstraDriver-JLCPCB.zip" | relative_url | append: cacheBust }})
-- [JLCPCB BOM CSV]({{ "export/AstraDriver_bom_jlc.csv" | relative_url | append: cacheBust }})
-- [JLCPCB CPL CSV]({{ "export/AstraDriver_cpl_jlc.csv" | relative_url | append: cacheBust }})
+- [JLCPCB Zip]({{ "export/AstraDriver-JLCPCB.zip" | absolute_url | append: cacheBust }})
+- [JLCPCB BOM CSV]({{ "export/AstraDriver_bom_jlc.csv" | absolute_url | append: cacheBust }})
+- [JLCPCB CPL CSV]({{ "export/AstraDriver_cpl_jlc.csv" | absolute_url | append: cacheBust }})
 
 #### Eurocircuits
 
-- [Eurocircuits Zip]({{ "export/AstraDriver-Eurocircuits.zip" | relative_url | append: cacheBust }})
-- [Eurocircuits BOM CSV]({{ "export/AstraDriver_bom_Eurocircuits.csv" | relative_url | append: cacheBust }})
-- [Eurocircuits CPL CSV]({{ "export/AstraDriver_cpl_Eurocircuits.csv" | relative_url | append: cacheBust }})
+- [Eurocircuits Zip]({{ "export/AstraDriver-Eurocircuits.zip" | absolute_url | append: cacheBust }})
+- [Eurocircuits BOM CSV]({{ "export/AstraDriver_bom_Eurocircuits.csv" | absolute_url | append: cacheBust }})
+- [Eurocircuits CPL CSV]({{ "export/AstraDriver_cpl_Eurocircuits.csv" | absolute_url | append: cacheBust }})
+
+#### 3D Step
+
+- [3D Step]({{ "/AstraDriver-3D.step" | absolute_url | append: cacheBust }})
   
 ## Report
 
@@ -129,6 +141,9 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 
 {% include_relative AstraDriver-report.md %}
 
+## Know Issues
+
+- TBD
 
 ## Credits
 
@@ -138,4 +153,4 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 
 [Amulet - Inspiration for awesome schematic and PCB](https://github.com/EPFLXplore/XRE_LeggedRobot_HW)
 
-Sorry if I am forgetting someone, I used lots of references and tips from all over the place.
+[tracespace view - Online Gerber Viewer](https://tracespace.io)
