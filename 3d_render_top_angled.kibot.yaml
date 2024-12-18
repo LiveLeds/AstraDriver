@@ -69,7 +69,7 @@ outputs:
           type: "SUN"
 
         - name: "light9"
-          energy: 5
+          energy: 1
           pos_x: -size
           pos_y: size
           pos_z: size
