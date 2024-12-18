@@ -9,6 +9,8 @@ layout: home
 it can support up to 4A, 3V - 18V at 850KHz switching frequency.
 Test plugs for each input and output.
 Optimized for good dimming performance.
+The board connects to [AstraControl](https://liveleds.github.io/AstraControl) ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485.
+Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github.io/AstraBeamLED).
 
 [![CI](https://github.com/LiveLeds/AstraDriver/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraControl/actions/workflows/ci.yml)
 

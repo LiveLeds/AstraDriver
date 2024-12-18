@@ -1099,7 +1099,7 @@
 		)
 		(uuid "98514de0-fbb7-4bf4-9b1b-c08db855dee3")
 	)
-	(text "The center of the board will have a 102x30mm copper heat sink attached to it."
+	(text "The center of the board will have a 102x30mm heat sink pad."
 		(exclude_from_sim no)
 		(at 25.4 123.19 0)
 		(effects
