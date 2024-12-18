@@ -12,7 +12,7 @@ Optimized for good dimming performance.
 The board connects to [AstraControl](https://liveleds.github.io/AstraControl) ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485.
 Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github.io/AstraBeamLED).
 
-[![CI](https://github.com/LiveLeds/AstraDriver/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraControl/actions/workflows/ci.yml)
+[![CI](https://github.com/LiveLeds/AstraDriver/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraDriver/actions/workflows/ci.yml)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/liveleds/AstraDriver?link=https%3A%2F%2Fgithub.com%2FLiveLeds%2FAstraDriver)
 

@@ -70,9 +70,9 @@ outputs:
 
         - name: "light9"
           energy: 5
-          pos_x: -size*3.33
-          pos_y: size*3.33
-          pos_z: 0.0
+          pos_x: -size
+          pos_y: size
+          pos_z: size
           type: "AREA"
       pcb3d:
         download: false
