@@ -32,6 +32,19 @@ outputs:
           pos_y: 0
           pos_z: size*25
           type: "AREA"
+        - name: "light4"
+          energy: 0.2
+          pos_x: size
+          pos_y: -size
+          pos_z: size
+          type: "AREA"
+
+        - name: "light5"
+          energy: 0.2
+          pos_x: -size
+          pos_y: size
+          pos_z: size
+          type: "AREA"
       pcb3d:
         download: false
         download_lcsc: false

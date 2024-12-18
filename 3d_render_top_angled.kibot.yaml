@@ -62,8 +62,8 @@ outputs:
           type: "AREA"
 
         - name: "light8"
-          energy: 0.1
-          pos_x: -size
+          energy: 0.2
+          pos_x: size
           pos_y: -size
           pos_z: size
           type: "AREA"
