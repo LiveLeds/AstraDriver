@@ -13,21 +13,21 @@ outputs:
     options:
       light:
         - name: "light1"
-          energy: 8
+          energy: 4
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: size*8
           type: "AREA"
 
         - name: "light2"
-          energy: 4
+          energy: 2
           pos_x: 0
           pos_y: size*3.33
           pos_z: size*9
           type: "AREA"
 
         - name: "light3"
-          energy: 4
+          energy: 2
           pos_x: 0
           pos_y: 0
           pos_z: size*15
@@ -45,7 +45,7 @@ outputs:
       render_options:
         auto_crop: true
         transparent_background: true
-        samples: 2
+        samples: 100
         resolution_x: 2048
         resolution_y: 2048
       auto_camera_z_axis_factor: 0.6
