@@ -17,7 +17,7 @@
 	(layer outer)
 	(condition "A.Type == 'Pad' && (B.Layer == '?.Silkscreen')"))
 
-(rule "Vua to Silkscreen"
+(rule "Via to Silkscreen"
 	(constraint silk_clearance (min 0.18mm))
 	(layer outer)
 	(condition "A.Type == 'Via' && (B.Layer == '?.Silkscreen')"))
