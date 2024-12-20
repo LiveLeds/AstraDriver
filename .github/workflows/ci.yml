@@ -44,7 +44,7 @@ jobs:
           ### ERC Report
           - **Errors**: $erc_errors
           - **Warnings**: $erc_warnings
-          - **Link**: [HTML Report](output/AstraDriver-erc.html)
+          - **Link**: [HTML Report](AstraDriver-erc.html)
           EOF
           cat output/erc_validation.md
       - name: Parse DRC
@@ -55,14 +55,14 @@ jobs:
           ### DRC Report
           - **Errors**: $drc_errors
           - **Warnings**: $drc_warnings
-          - **Link**: [HTML Report](output/AstraDriver-drc.html)
+          - **Link**: [HTML Report](AstraDriver-drc.html)
           EOF
           cat output/drc_validation.md
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: AstraDriver
+          name: PreFlight
           path: output
   Render_3D_Top_Angled:
     runs-on: ubuntu-latest
@@ -255,6 +255,7 @@ jobs:
           ls -l output
           ls -l output/Render_Top_Angled
           ls -l output/Report
+          ls -l output/PreFlight
           ls -l output/Step
           find .
           mkdir export
@@ -265,6 +266,8 @@ jobs:
           mkdir KiRiLight
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
+          mv output/AstraDriver-drc.html ./
+          mv output/AstraDriver-erc.html ./
           mv output/Step/Step/AstraDriver-3D.step ./AstraDriver-3D.step
           mv output/Report/report/AstraDriver-report.txt ./AstraDriver-report.md
           mv output/Render_Top/AstraDriver-3D_blender_top.png images/AstraDriver-3D_blender_top.png
