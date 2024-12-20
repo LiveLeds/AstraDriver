@@ -77,7 +77,7 @@ outputs:
 
         - name: "light10"
           energy: 1
-          pos_x: size/3
+          pos_x: -size
           pos_y: size
           pos_z: size
           type: "AREA"
