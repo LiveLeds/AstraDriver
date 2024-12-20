@@ -295,14 +295,16 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-      - name: Move files directly to site
+          future: true
+      - name: Move KiRi files directly to site
         run: |
+          ls -l
           sudo chown -R $USER:$USER ./_site/
           cp -r ./KiRiDark ./_site/ || true
           cp -r ./KiRiLight ./_site/ || true
-          cp -r ./AstraDriver-3D.step ./_site/AstraDriver-3D.step
+          find .
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
 
   Deploy_Jekyll:
     needs: Build_Jekyll

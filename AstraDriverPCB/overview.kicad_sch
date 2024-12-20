@@ -1013,6 +1013,18 @@
 		)
 		(uuid "54f7ac6c-a9c0-478c-97d8-c4ff6a8eebac")
 	)
+	(text "Vias will be plugged and capped to avoid issues with exposed pads."
+		(exclude_from_sim no)
+		(at 25.4 129.54 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "570eed78-7761-4203-a531-3a0c378aada3")
+	)
 	(text "Notes"
 		(exclude_from_sim no)
 		(at 20.32 115.57 0)
@@ -1050,6 +1062,18 @@
 			(justify left)
 		)
 		(uuid "7301e8da-463a-4590-844a-fb4e7adba78c")
+	)
+	(text "Test plugs will be hand-soldered on a single test board."
+		(exclude_from_sim no)
+		(at 25.4 135.89 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "752796e2-13da-45ed-aea1-e85dfdec7efb")
 	)
 	(text "Overview"
 		(exclude_from_sim no)

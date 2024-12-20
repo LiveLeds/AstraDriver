@@ -12002,6 +12002,18 @@
 			"AABJRU5ErkJggg=="
 		)
 	)
+	(text "Blue and CY"
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(face "ING Me Headline")
+				(size 8 8)
+			)
+			(justify left top)
+		)
+		(uuid "9dbd8cc9-427b-4f6c-8977-a9fd6f4076f3")
+	)
 	(text "LED Current: 2.5A (3A Max)\nLED Current Ripple: 4%\nInductor Current Ripple: 30%"
 		(exclude_from_sim no)
 		(at 129.54 30.48 0)
@@ -13177,7 +13189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1118264-751d-4b19-87f1-0a1a547943d4")
-		(property "Reference" "INF2"
+		(property "Reference" "INF3"
 			(at 179.07 27.9399 0)
 			(effects
 				(font
@@ -13224,11 +13236,11 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/02378fe8-1086-45ec-8926-c2e9ee784828"
-					(reference "INF2")
+					(reference "INF3")
 					(unit 1)
 				)
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/2917a49e-0b0c-4bc9-a147-180770b18779"
-					(reference "INF3")
+					(reference "INF4")
 					(unit 1)
 				)
 			)

@@ -7322,6 +7322,18 @@
 			"MgAAAABJRU5ErkJggg=="
 		)
 	)
+	(text "Green"
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(face "ING Me Headline")
+				(size 8 8)
+			)
+			(justify left top)
+		)
+		(uuid "31f05701-3e75-4af1-a2ed-ea165f2f2645")
+	)
 	(text "LED Current: 2.5A (3A Max)\nLED Current Ripple: 3%\nInductor Current Ripple: 30%"
 		(exclude_from_sim no)
 		(at 129.54 30.48 0)
@@ -7523,7 +7535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a47a314-747a-4580-a3e9-6541326cdb49")
-		(property "Reference" "INF4"
+		(property "Reference" "INF5"
 			(at 179.07 27.9399 0)
 			(effects
 				(font
@@ -7570,7 +7582,7 @@
 		(instances
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/5a9ee1ee-cc67-48b8-9e13-71946b2dc8ce"
-					(reference "INF4")
+					(reference "INF5")
 					(unit 1)
 				)
 			)
