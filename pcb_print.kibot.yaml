@@ -208,7 +208,7 @@ outputs:
             - layer: Board.Center
               color: "@BACKGROUND_COLOR@"
               use_for_center: false
-        - title: "L4 GND (Front FAB)"
+        - title: "L4 SIG / GND (Front FAB)"
           scaling: 1.3
           sketch_pads_on_fab_layers: true
           colored_holes: true
@@ -224,7 +224,7 @@ outputs:
             - layer: Board.Center
               color: "@BACKGROUND_COLOR@"
               use_for_center: false
-        - title: "L4 GND"
+        - title: "L4 SIG / GND"
           scaling: 1.3
           colored_holes: true
           sheet_reference_color: "@FOREGROUND_COLOR@"
@@ -246,6 +246,7 @@ outputs:
           layers:
             - layer: F.Cu
             - layer: Edge.Cuts
+            - layer: F.Fab
             - layer: Board.Title
               color: "@FOREGROUND_COLOR@"
             - layer: F.SilkS
