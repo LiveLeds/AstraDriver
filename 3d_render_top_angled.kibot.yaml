@@ -76,9 +76,9 @@ outputs:
           type: "AREA"
 
         - name: "light10"
-          energy: 0.2
+          energy: 1
           pos_x: size/2
-          pos_y: size
+          pos_y: -size
           pos_z: size
           type: "AREA"
       pcb3d:
