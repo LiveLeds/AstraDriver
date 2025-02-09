@@ -11,7 +11,7 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
-		(symbol "LiveAstra:AstraControl_Ground_Ring"
+		(symbol "LiveAstra:AstraDriver_Ground_Ring"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -33,8 +33,8 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:AstraControl_Ground_Ring"
-				(at 0 6.35 0)
+			(property "Footprint" "LiveAstra:AstraDriver_Ground_Ring"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -60,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AstraControl_Ground_Ring_0_1"
+			(symbol "AstraDriver_Ground_Ring_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -84,7 +84,7 @@
 					)
 				)
 			)
-			(symbol "AstraControl_Ground_Ring_1_1"
+			(symbol "AstraDriver_Ground_Ring_1_1"
 				(circle
 					(center -9.398 -4.318)
 					(radius 0.508)
@@ -1659,6 +1659,73 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:AstraDriver_Ground_Ring")
+		(at 68.58 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e00f1b9-c319-49d0-9646-82824d382e17")
+		(property "Reference" "RING1"
+			(at 80.01 75.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LiveAstra:AstraDriver_Ground_Ring"
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3828348e-a704-4e65-acb3-d80150599c89")
+		)
+		(instances
+			(project ""
+				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e1c7a56f-5caa-4cff-9bf2-f03631e64f8e"
+					(reference "RING1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
 		(at 101.6 93.98 90)
 		(unit 1)
@@ -2618,72 +2685,6 @@
 			(project "AstraDriver"
 				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e1c7a56f-5caa-4cff-9bf2-f03631e64f8e"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:AstraControl_Ground_Ring")
-		(at 68.58 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0a2e09a-b0b5-41d9-ae28-a1e9ade00f79")
-		(property "Reference" "RING1"
-			(at 66.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 80.01 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LiveAstra:AstraControl_Ground_Ring"
-			(at 68.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "292638e0-c214-41bc-b08a-cf08cf69c45a")
-		)
-		(instances
-			(project "AstraDriver"
-				(path "/d8760d88-6646-4dd8-a980-02e776803cc5/db9d16fd-00a9-4695-9dd4-6de80f9e2ffc/e1c7a56f-5caa-4cff-9bf2-f03631e64f8e"
-					(reference "RING1")
 					(unit 1)
 				)
 			)
