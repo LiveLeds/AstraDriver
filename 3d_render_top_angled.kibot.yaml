@@ -87,7 +87,7 @@ outputs:
       render_options:
         auto_crop: true
         transparent_background: true
-        samples: 150
+        samples: 2
         resolution_x: 2048
         resolution_y: 2048
       auto_camera_z_axis_factor: 0.6
