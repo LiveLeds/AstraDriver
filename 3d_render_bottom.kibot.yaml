@@ -41,11 +41,11 @@ outputs:
         samples: 2
         resolution_x: 2048
         resolution_y: 2048
-      auto_camera_z_axis_factor: 0.6
+      auto_camera_z_axis_factor: 0.5
       point_of_view:
         rotate_x: 180
         rotate_y: 0
-        rotate_z: 180
+        rotate_z: 0
         view: "top" # Bottom doesn't work, use 180 X axis rotation.
       outputs:
         - type: render
