@@ -21,3 +21,8 @@
 	(constraint silk_clearance (min 0.18mm))
 	(layer outer)
 	(condition "A.Type == 'Via' && (B.Layer == '?.Silkscreen')"))
+
+(rule "via_not_in_tht_pad"
+	(condition "A.Type == 'via' && B.Type == 'Pad' && B.Pad_Type == 'Through-hole' && B.Fabrication_Property != 'Heatsink pad' && B.Pad_Shape != 'Custom' && B.Exclude_From_Bill_of_Materials == false")
+	(constraint physical_clearance (min 2.04mm))
+)
