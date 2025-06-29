@@ -90,9 +90,9 @@ outputs:
         samples: 1
         resolution_x: 2048
         resolution_y: 2048
-      auto_camera_z_axis_factor: 0.7
+      auto_camera_z_axis_factor: 0.6
       point_of_view:
-        rotate_x: -15
+        rotate_x: 15
         rotate_y: 15
         rotate_z: 0
         view: top
