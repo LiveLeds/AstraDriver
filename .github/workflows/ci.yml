@@ -259,7 +259,7 @@ jobs:
           find .
           mkdir export
           mkdir html
-          mkdir images
+          mkdir -p images
           mkdir documents
           mkdir KiRiDark
           mkdir KiRiLight
