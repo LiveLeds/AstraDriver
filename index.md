@@ -22,6 +22,9 @@ The PCB went into production on **April 9, 2025**.
 
 ##### Front
 
+![PCB Front]({{ "/images/AstraDriver_Received_Front_Angled.jpg" | relative_url | append: cacheBust }}){: width="600" }
+
+
 ![PCB Front]({{ "/images/AstraDriver_Received_Front.jpg" | relative_url | append: cacheBust }}){: width="600" }
 
 ##### Back
